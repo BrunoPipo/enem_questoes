@@ -1,4 +1,4 @@
-﻿ano_questao;num_questao;conteudo_questao;gabarito_questao;arquivo_imagem
+ano,numero,conteudos,alternativa,imagem
 2009;136;Razão e proporção;E;2009_q136
 2009;137;Volume de tronco de cone;C;2009_q137
 2009;138;Razão e proporção;D;2009_q138
@@ -764,3 +764,4 @@
 2025;178;Probabilidade (Eventos Complementares);D;2025_q178
 2025;179;Razão e Proporção (Consumo e Combustíveis);D;2025_q179
 2025;180;Operações Básicas / Otimização (Aritmética);E;2025_q180
+
