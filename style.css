@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    text-align: center;
+}
+
+.filtros {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.filtros input,
+.filtros select,
+.filtros button {
+    padding: 6px;
+    font-size: 14px;
+}
+
+#resultado {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+.questao {
+    background: white;
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: fit-content;
+}
+
+.questao img {
+    max-width: 900px;
+}

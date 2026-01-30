@@ -1,0 +1,16 @@
+[
+  {
+    "ano": 2012,
+    "numero": 7,
+    "conteudos": ["Razão e Proporção", "Interpretação de Texto"],
+    "alternativa": "B",
+    "imagem": "2012/enem_2012_q07.png"
+  },
+  {
+    "ano": 2018,
+    "numero": 19,
+    "conteudos": ["Função Afim", "Gráficos"],
+    "alternativa": "D",
+    "imagem": "2018/enem_2018_q19.png"
+  }
+]

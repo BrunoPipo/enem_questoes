@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Banco de Questões ENEM – Matemática</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Questões de Matemática – ENEM</h1>
+
+<div class="filtros">
+    <label>Ano:</label>
+    <select id="filtroAno">
+        <option value="">Todos</option>
+    </select>
+
+    <label>Conteúdo:</label>
+    <input type="text" id="filtroConteudo" placeholder="Ex: Função Afim">
+
+    <label>Alternativa correta:</label>
+    <select id="filtroAlternativa">
+        <option value="">Todas</option>
+        <option value="A">A</option>
+        <option value="B">B</option>
+        <option value="C">C</option>
+        <option value="D">D</option>
+        <option value="E">E</option>
+    </select>
+
+    <button onclick="aplicarFiltros()">Filtrar</button>
+</div>
+
+<hr>
+
+<div id="resultado"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
