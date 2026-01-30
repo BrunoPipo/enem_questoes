@@ -1,767 +1,766 @@
-ano,numero,conteudos,alternativa,imagem
-2009;136;Razão e proporção;E;2009_q136
-2009;137;Volume de tronco de cone;C;2009_q137
-2009;138;Razão e proporção;D;2009_q138
-2009;139;Volume de paralelepípedo e cubo;A;2009_q139
-2009;140;Porcentagem e regra de três simples;D;2009_q140
-2009;141;Média aritmética e leitura de gráficos;C;2009_q141
-2009;142;Análise combinatória: permutação com repetição;D;2009_q142
-2009;143;Sistema de equações lineares;E;2009_q143
-2009;144;Equação do 1º grau;D;2009_q144
-2009;145;Geometria analítica: equações de reta;C;2009_q145
-2009;146;Estatística: porcentagem;C;2009_q146
-2009;147;Função do 1º grau;A;2009_q147
-2009;148;Geometria plana: perímetro e relações métricas;D;2009_q148
-2009;149;Interpretação de gráficos de setor;E;2009_q149
-2009;150;Porcentagem aplicada a variação de preços;D;2009_q150
-2009;151;Estatística: leitura de gráficos e dados;A;2009_q151
-2009;152;Função quadrática: ponto de máximo;D;2009_q152
-2009;153;Geometria espacial: tronco de cone;E;2009_q153
-2009;154;Estatística: porcentagem;D;2009_q154
-2009;155;Aritmética: frações e proporção;D;2009_q155
-2009;156;Probabilidade;D;2009_q156
-2009;157;Geometria plana: ângulos e distância (trigonometria);B;2009_q157
-2009;158;Função do 1º grau;A;2009_q158
-2009;159;Aritmética: progressão aritmética;E;2009_q159
-2009;160;Sistema de equações lineares;D;2009_q160
-2009;161;Geometria analítica: ponto médio e distância;D;2009_q161
-2009;162;Interpretação de gráficos;A;2009_q162
-2009;163;Estatística: média, moda, mediana;B;2009_q163
-2009;164;Porcentagem aplicada a questões ambientais;E;2009_q164
-2009;165;Geometria espacial: volume de cubo;A;2009_q165
-2009;166;Análise e comparação de áreas planas;B;2009_q166
-2009;167;Equação do 1º grau: tempo e proporção;E;2009_q167
-2009;168;Função quadrática: resolução de equações;D;2009_q168
-2009;169;Sequência numérica: múltiplos de 11;D;2009_q169
-2009;170;Escala e razão entre áreas;B;2009_q170
-2009;171;Geometria plana: redução de área (porcentagem);C;2009_q171
-2009;172;Probabilidade ponderada;C;2009_q172
-2009;173;Análise combinatória: permutação;E;2009_q173
-2009;174;Estatística: leitura de tabela de frequências;B;2009_q174
-2009;175;Estatística: moda;B;2009_q175
-2009;176;Sequência: Triângulo de Pascal;C;2009_q176
-2009;177;Potências de 10 e estimativas;C;2009_q177
-2009;178;Comparação volumétrica: estimativa;E;2009_q178
-2009;179;Geometria espacial: volume do cubo;B;2009_q179
-2009;180;Leitura de gráfico temporal de produção;B;2009_q180
-2010;136;Porcentagem (Representação Visual/Geométrica);C;2010_q136
-2010;137;Geometria Espacial (Planificação de Sólidos - Cilindros);E;2010_q137
-2010;138;Funções (Análise de Gráficos de Crescimento);E;2010_q138
-2010;139;Geometria Plana (Cálculo de Áreas / Razão e Proporção);B;2010_q139
-2010;140;Geometria Espacial (Volume de Prismas);A;2010_q140
-2010;141;Estatística (Média Aritmética);B;2010_q141
-2010;142;Razão e Proporção (Divisão Proporcional);D;2010_q142
-2010;143;Geometria Espacial (Vistas e Perspectivas);D;2010_q143
-2010;144;Probabilidade (Espaço Amostral);A;2010_q144
-2010;145;Porcentagem / Interpretação de Tabelas;D;2010_q145
-2010;146;Geometria Plana (Círculos e Arcos);C;2010_q146
-2010;147;Equação do 1º Grau / Problemas de Contagem;D;2010_q147
-2010;148;Estatística (Leitura de Gráficos de Setores);B;2010_q148
-2010;149;Razão e Proporção (Escalas de Mapas);C;2010_q149
-2010;150;Geometria Plana (Ladrilhamento / Polígonos);A;2010_q150
-2010;151;Grandezas Inversamente Proporcionais;E;2010_q151
-2010;152;Geometria Espacial (Projeção Ortogonal);B;2010_q152
-2010;153;Análise Combinatória (Princípio Multiplicativo);B;2010_q153
-2010;154;Trigonometria (Triângulo Retângulo);C;2010_q154
-2010;155;Funções (Interpretação de Gráficos de Funções Periódicas);B;2010_q155
-2010;156;Porcentagem e Operações com Decimais;E;2010_q156
-2010;157;Geometria Plana (Teorema de Pitágoras);D;2010_q157
-2010;158;Estatística (Média e Mediana);B;2010_q158
-2010;159;Geometria Espacial (Volume de Troncos);C;2010_q159
-2010;160;Logaritmos (Cálculo de Intensidade Sonora);E;2010_q160
-2010;161;Progressão Aritmética (PA);B;2010_q161
-2010;162;Geometria Plana (Área de Polígonos Regulares);A;2010_q162
-2010;163;Matrizes (Organização de Dados);D;2010_q163
-2010;164;Probabilidade de Eventos Sucessivos;C;2010_q164
-2010;165;Razão e Proporção (Vazão e Tempo);A;2010_q165
-2010;166;Geometria Espacial (Cilindros e Esferas);B;2010_q166
-2010;167;Função do 2º Grau (Estudo do Vértice/Máximos);D;2010_q167
-2010;168;Raciocínio Lógico / Aritmética Básica;C;2010_q168
-2010;169;Geometria Analítica (Coordenadas Cartesianas);A;2010_q169
-2010;170;Porcentagem (Aumentos e Descontos);E;2010_q170
-2010;171;Estatística (Desvio Padrão e Variância);C;2010_q171
-2010;172;Geometria Plana (Perímetros e Arcos);C;2010_q172
-2010;173;Matemática Financeira (Juros Simples);A;2010_q173
-2010;174;Análise Combinatória (Combinação);D;2010_q174
-2010;175;Razão e Proporção (Densidade e Massa);E;2010_q175
-2010;176;Geometria Espacial (Planificação e Cubo);B;2010_q176
-2010;177;Funções (Domínio e Imagem);D;2010_q177
-2010;178;Operações Básicas / Raciocínio Proporcional;C;2010_q178
-2010;179;Geometria Espacial (Cálculo de Volume de Madeira/Sólidos Vazados);D;2010_q179
-2010;180;Funções (Interpretação de Gráficos de Velocidade);C;2010_q180
-2011;136;Sistema de numeração decimal, Leitura de instrumentos de medida;A;2011_q136
-2011;137;Conversão de unidades, Sistema métrico decimal;B;2011_q137
-2011;138;Logaritmos, Potências de base 10, Função logarítmica;E;2011_q138
-2011;139;Números decimais, Valor absoluto, Comparação de medidas;E;2011_q139
-2011;140;Porcentagem, Proporcionalidade, Conversão de unidades de volume;E;2011_q140
-2011;141;Razão e proporção, Regra de três, Grandezas proporcionais;B;2011_q141
-2011;142;Geometria plana, Perímetro, Área de retângulos;C;2011_q142
-2011;143;Escala, Razão e proporção, Conversão de unidades;E;2011_q143
-2011;144;Geometria espacial, Simetria, Poliedros;E;2011_q144
-2011;145;Estatística, Média, Mediana, Moda;B;2011_q145
-2011;146;Escala, Conversão de unidades, Proporcionalidade;C;2011_q146
-2011;147;Geometria espacial, Sólidos de revolução;E;2011_q147
-2011;148;Conversão de unidades, Proporcionalidade;C;2011_q148
-2011;149;Geometria analítica, Distância entre pontos, Plano cartesiano;B;2011_q149
-2011;150;Expressões algébricas, Razão, Interpretação de fórmulas;A;2011_q150
-2011;151;Geometria plana, Simetria de rotação;D;2011_q151
-2011;152;Proporcionalidade, Regra de três, Operações com racionais;E;2011_q152
-2011;153;Estatística, Média aritmética, Leitura de tabela;C;2011_q153
-2011;154;Função afim, Proporcionalidade direta, Gráficos;E;2011_q154
-2011;155;Porcentagem, Juros simples, Análise financeira;D;2011_q155
-2011;156;Razão, Porcentagem, Interpretação de tabelas;B;2011_q156
-2011;157;Trigonometria, Geometria plana;B;2011_q157
-2011;158;Função afim, Progressão aritmética, Modelagem algébrica;C;2011_q158
-2011;159;Progressão aritmética, Sequências numéricas;D;2011_q159
-2011;160;Equação do 1º grau, Função afim, Comparação de custos;A;2011_q160
-2011;161;Porcentagem, Operações com racionais;C;2011_q161
-2011;162;Razão, Densidade demográfica;B;2011_q162
-2011;163;Probabilidade, Interpretação de gráficos;E;2011_q163
-2011;164;Potência elétrica, Consumo de energia, Proporcionalidade;D;2011_q164
-2011;165;Fórmulas algébricas, Razão, Interpretação de tabelas;B;2011_q165
-2011;166;Geometria plana, Comprimento de circunferência, Arcos;A;2011_q166
-2011;167;Proporcionalidade, Porcentagem;D;2011_q167
-2011;168;Análise combinatória, Probabilidade;C;2011_q168
-2011;169;Geometria espacial, Volume do cilindro, Razão;C;2011_q169
-2011;170;Probabilidade, Interpretação de gráficos estatísticos;D;2011_q170
-2011;171;Probabilidade, Estatística, Leitura de tabelas;C;2011_q171
-2011;172;Função afim, Inequações, Análise de lucro;D;2011_q172
-2011;173;Análise de gráficos de função afim;D;2011_q173
-2011;174;Proporcionalidade, Expressões algébricas, Modelagem;C;2011_q174
-2011;175;Juros compostos, Função exponencial, Comparação de taxas;C;2011_q175
-2011;176;Análise combinatória, Ordenação, Sistema de numeração;E;2011_q176
-2011;177;Porcentagem, Estatística, Interpretação de gráficos;C;2011_q177
-2011;178;Ordem de grandeza, Proporcionalidade, Leitura de tabelas;A;2011_q178
-2011;179;Teoria dos grafos, Caminhos, Raciocínio lógico;C;2011_q179
-2011;180;Interpretação de gráficos, Análise temporal;C;2011_q180
-2012;136;Razão e proporção, Regra de três, Interpretação de texto;A;2012_q136
-2012;137;Geometria plana, Área de figuras planas, Proporcionalidade;B;2012_q137
-2012;138;Função afim, Análise de gráficos, Taxa de variação;E;2012_q138
-2012;139;Estatística, Média aritmética, Interpretação de tabela;E;2012_q139
-2012;140;Porcentagem, Acréscimos e decréscimos percentuais;E;2012_q140
-2012;141;Geometria espacial, Volume de prismas;B;2012_q141
-2012;142;Conversão de unidades, Sistema métrico decimal;C;2012_q142
-2012;143;Função exponencial, Crescimento populacional;E;2012_q143
-2012;144;Probabilidade, Análise combinatória simples;E;2012_q144
-2012;145;Geometria plana, Teorema de Pitágoras;B;2012_q145
-2012;146;Escala, Proporcionalidade, Medidas de comprimento;C;2012_q146
-2012;147;Estatística, Gráficos de setores;E;2012_q147
-2012;148;Razão, Densidade, Interpretação de dados;C;2012_q148
-2012;149;Geometria analítica, Distância entre pontos;B;2012_q149
-2012;150;Função afim, Sistemas lineares, Modelagem algébrica;A;2012_q150
-2012;151;Porcentagem, Juros simples;D;2012_q151
-2012;152;Progressão aritmética, Sequências numéricas;E;2012_q152
-2012;153;Geometria espacial, Volume do cilindro;C;2012_q153
-2012;154;Probabilidade, Eventos independentes;E;2012_q154
-2012;155;Função quadrática, Análise de gráfico;D;2012_q155
-2012;156;Estatística, Mediana, Interpretação de dados;B;2012_q156
-2012;157;Trigonometria, Razões trigonométricas no triângulo retângulo;B;2012_q157
-2012;158;Escala, Área, Conversão de unidades;C;2012_q158
-2012;159;Função exponencial, Decaimento;D;2012_q159
-2012;160;Geometria plana, Comprimento de circunferência;A;2012_q160
-2012;161;Porcentagem, Análise financeira;C;2012_q161
-2012;162;Análise combinatória, Princípio multiplicativo;B;2012_q162
-2012;163;Estatística, Leitura de gráfico de linhas;E;2012_q163
-2012;164;Razão e proporção, Regra de três composta;D;2012_q164
-2012;165;Geometria espacial, Volume da esfera;B;2012_q165
-2012;166;Função afim, Inequações;A;2012_q166
-2012;167;Probabilidade, Espaço amostral;D;2012_q167
-2012;168;Progressão geométrica, Crescimento exponencial;C;2012_q168
-2012;169;Geometria plana, Semelhança de triângulos;C;2012_q169
-2012;170;Estatística, Média ponderada;D;2012_q170
-2012;171;Função quadrática, Máximo e mínimo;C;2012_q171
-2012;172;Conversão de unidades, Consumo de energia elétrica;D;2012_q172
-2012;173;Razão, Proporcionalidade direta;D;2012_q173
-2012;174;Probabilidade, Interpretação de tabela;C;2012_q174
-2012;175;Juros compostos, Função exponencial;C;2012_q175
-2012;176;Geometria analítica, Equação da reta;E;2012_q176
-2012;177;Estatística, Desvio e dispersão de dados;C;2012_q177
-2012;178;Análise combinatória, Arranjos simples;A;2012_q178
-2012;179;Geometria espacial, Área lateral e total de sólidos;C;2012_q179
-2012;180;Interpretação de gráficos, Análise de variação;C;2012_q180
-2013;136;Razão e proporção, Regra de três;C;2013_q136
-2013;137;Geometria plana, Área de figuras planas;A;2013_q137
-2013;138;Estatística, Média aritmética, Interpretação de gráfico;A;2013_q138
-2013;139;Função afim, Análise de gráfico;C;2013_q139
-2013;140;Porcentagem, Acréscimos e decréscimos percentuais;D;2013_q140
-2013;141;Geometria espacial, Volume de sólidos;D;2013_q141
-2013;142;Conversão de unidades, Sistema métrico decimal;A;2013_q142
-2013;143;Probabilidade, Espaço amostral;E;2013_q143
-2013;144;Função exponencial, Crescimento;E;2013_q144
-2013;145;Geometria plana, Teorema de Pitágoras;B;2013_q145
-2013;146;Escala, Proporcionalidade;A;2013_q146
-2013;147;Estatística, Gráfico de setores;C;2013_q147
-2013;148;Razão, Densidade;E;2013_q148
-2013;149;Geometria analítica, Distância entre pontos;D;2013_q149
-2013;150;Função afim, Modelagem algébrica;B;2013_q150
-2013;151;Porcentagem, Juros simples;C;2013_q151
-2013;152;Progressão aritmética;A;2013_q152
-2013;153;Geometria espacial, Volume do cilindro;A;2013_q153
-2013;154;Probabilidade, Eventos independentes;B;2013_q154
-2013;155;Função quadrática, Análise de gráfico;B;2013_q155
-2013;156;Estatística, Mediana;E;2013_q156
-2013;157;Trigonometria, Razões trigonométricas;B;2013_q157
-2013;158;Escala, Área, Conversão de unidades;E;2013_q158
-2013;159;Função exponencial, Decaimento;D;2013_q159
-2013;160;Geometria plana, Comprimento de circunferência;C;2013_q160
-2013;161;Porcentagem, Análise financeira;B;2013_q161
-2013;162;Análise combinatória, Princípio multiplicativo;B;2013_q162
-2013;163;Estatística, Gráfico de linhas;D;2013_q163
-2013;164;Razão e proporção, Regra de três composta;C;2013_q164
-2013;165;Geometria espacial, Volume da esfera;E;2013_q165
-2013;166;Função afim, Inequações;C;2013_q166
-2013;167;Probabilidade;B;2013_q167
-2013;168;Progressão geométrica;D;2013_q168
-2013;169;Geometria plana, Semelhança de triângulos;A;2013_q169
-2013;170;Estatística, Média ponderada;D;2013_q170
-2013;171;Função quadrática, Máximo e mínimo;C;2013_q171
-2013;172;Conversão de unidades, Consumo de energia;B;2013_q172
-2013;173;Proporcionalidade direta;A;2013_q173
-2013;174;Probabilidade, Interpretação de tabela;D;2013_q174
-2013;175;Juros compostos, Função exponencial;C;2013_q175
-2013;176;Geometria analítica, Equação da reta;D;2013_q176
-2013;177;Estatística, Dispersão de dados;E;2013_q177
-2013;178;Análise combinatória, Arranjos;E;2013_q178
-2013;179;Geometria espacial, Área total de sólidos;D;2013_q179
-2013;180;Interpretação de gráficos, Variação temporal;C;2013_q180
-2014;136;Razão e proporção, Regra de três;C;2014_q136
-2014;137;Geometria plana, Área de polígonos;E;2014_q137
-2014;138;Estatística, Média e interpretação de gráfico;C;2014_q138
-2014;139;Função afim, Taxa de variação;A;2014_q139
-2014;140;Porcentagem, Juros simples;C;2014_q140
-2014;141;Geometria espacial, Volume de prismas;B;2014_q141
-2014;142;Conversão de unidades;C;2014_q142
-2014;143;Probabilidade;A;2014_q143
-2014;144;Função exponencial;B;2014_q144
-2014;145;Geometria plana, Pitágoras;A;2014_q145
-2014;146;Escala, Proporcionalidade;B;2014_q146
-2014;147;Estatística, Gráfico de colunas;D;2014_q147
-2014;148;Razão, Densidade demográfica;B;2014_q148
-2014;149;Geometria analítica, Distância entre pontos;D;2014_q149
-2014;150;Função afim, Modelagem;A;2014_q150
-2014;151;Porcentagem;D;2014_q151
-2014;152;Progressão aritmética;C;2014_q152
-2014;153;Geometria espacial, Volume do cone;D;2014_q153
-2014;154;Probabilidade, Eventos dependentes;A;2014_q154
-2014;155;Função quadrática;E;2014_q155
-2014;156;Estatística, Mediana;A;2014_q156
-2014;157;Trigonometria;E;2014_q157
-2014;158;Escala, Área;C;2014_q158
-2014;159;Função exponencial;B;2014_q159
-2014;160;Geometria plana, Circunferência;B;2014_q160
-2014;161;Porcentagem, Análise financeira;C;2014_q161
-2014;162;Análise combinatória;A;2014_q162
-2014;163;Estatística, Gráfico de linhas;E;2014_q163
-2014;164;Razão e proporção;A;2014_q164
-2014;165;Geometria espacial, Volume da esfera;D;2014_q165
-2014;166;Função afim, Inequações;B;2014_q166
-2014;167;Probabilidade;E;2014_q167
-2014;168;Progressão geométrica;D;2014_q168
-2014;169;Geometria plana, Semelhança;B;2014_q169
-2014;170;Estatística, Média ponderada;E;2014_q170
-2014;171;Função quadrática;C;2014_q171
-2014;172;Conversão de unidades, Energia elétrica;B;2014_q172
-2014;173;Proporcionalidade direta;D;2014_q173
-2014;174;Probabilidade, Tabelas;E;2014_q174
-2014;175;Juros compostos;C;2014_q175
-2014;176;Geometria analítica, Reta;E;2014_q176
-2014;177;Estatística, Variabilidade;D;2014_q177
-2014;178;Análise combinatória;D;2014_q178
-2014;179;Geometria espacial, Área de sólidos;D;2014_q179
-2014;180;Interpretação de gráficos;C;2014_q180
-2015;136;Razão e proporção, Regra de três;E;2015_q136
-2015;137;Geometria plana, Área de figuras planas;B;2015_q137
-2015;138;Estatística, Interpretação de gráfico;C;2015_q138
-2015;139;Função afim, Taxa de variação;C;2015_q139
-2015;140;Porcentagem, Acréscimos percentuais;B;2015_q140
-2015;141;Geometria espacial, Volume de prismas;E;2015_q141
-2015;142;Conversão de unidades, Sistema métrico decimal;E;2015_q142
-2015;143;Probabilidade, Espaço amostral;D;2015_q143
-2015;144;Função exponencial, Crescimento;A;2015_q144
-2015;145;Geometria plana, Teorema de Pitágoras;B;2015_q145
-2015;146;Escala, Proporcionalidade;D;2015_q146
-2015;147;Estatística, Gráfico de setores;B;2015_q147
-2015;148;Razão, Densidade;D;2015_q148
-2015;149;Geometria analítica, Distância entre pontos;E;2015_q149
-2015;150;Função afim, Modelagem algébrica;C;2015_q150
-2015;151;Porcentagem, Juros simples;D;2015_q151
-2015;152;Progressão aritmética;A;2015_q152
-2015;153;Geometria espacial, Volume do cilindro;C;2015_q153
-2015;154;Probabilidade, Eventos independentes;C;2015_q154
-2015;155;Função quadrática, Análise de gráfico;E;2015_q155
-2015;156;Estatística, Mediana;D;2015_q156
-2015;157;Trigonometria, Razões trigonométricas;C;2015_q157
-2015;158;Escala, Área, Conversão de unidades;C;2015_q158
-2015;159;Função exponencial, Decaimento;E;2015_q159
-2015;160;Geometria plana, Comprimento de circunferência;C;2015_q160
-2015;161;Porcentagem, Análise financeira;A;2015_q161
-2015;162;Análise combinatória, Princípio multiplicativo;A;2015_q162
-2015;163;Estatística, Gráfico de linhas;E;2015_q163
-2015;164;Razão e proporção, Regra de três composta;A;2015_q164
-2015;165;Geometria espacial, Volume da esfera;D;2015_q165
-2015;166;Função afim, Inequações;C;2015_q166
-2015;167;Probabilidade;B;2015_q167
-2015;168;Progressão geométrica;E;2015_q168
-2015;169;Geometria plana, Semelhança de triângulos;D;2015_q169
-2015;170;Estatística, Média ponderada;A;2015_q170
-2015;171;Função quadrática, Máximo e mínimo;E;2015_q171
-2015;172;Conversão de unidades, Consumo de energia elétrica;A;2015_q172
-2015;173;Proporcionalidade direta;C;2015_q173
-2015;174;Probabilidade, Interpretação de tabela;A;2015_q174
-2015;175;Juros compostos, Função exponencial;B;2015_q175
-2015;176;Geometria analítica, Equação da reta;A;2015_q176
-2015;177;Estatística, Dispersão de dados;D;2015_q177
-2015;178;Análise combinatória, Arranjos simples;D;2015_q178
-2015;179;Geometria espacial, Área total de sólidos;B;2015_q179
-2015;180;Interpretação de gráficos, Análise de variação;B;2015_q180
-2016;136;;C;2016_q136
-2016;137;;E;2016_q137
-2016;138;;E;2016_q138
-2016;139;;C;2016_q139
-2016;140;;D;2016_q140
-2016;141;;B;2016_q141
-2016;142;Geometria Espacial, Volume de sólidos (cilindro e cone), Divisão inteira;D;2016_q142
-2016;143;Escalas, Proporcionalidade, Porcentagem;A;2016_q143
-2016;144;Conversão de unidades, Medidas de comprimento;D;2016_q144
-2016;145;Geometria Espacial, Projeções ortogonais;E;2016_q145
-2016;146;Razão, Estatística descritiva (comparação de desempenho);B;2016_q146
-2016;147;Logaritmos, Escala Richter;C;2016_q147
-2016;148;Regra de três, Porcentagem, Conversão de unidades;C;2016_q148
-2016;149;Geometria Espacial, Interseção de planos com pirâmides;E;2016_q149
-2016;150;Função Afim, Gráficos de funções, Vazão;B;2016_q150
-2016;151;Porcentagem, Estatística (índice de infestação);A;2016_q151
-2016;152;Geometria Plana, Relações métricas em polígonos, Comparação de medidas;B;2016_q152
-2016;153;Funções periódicas, Gráficos, Contagem de interseções;E;2016_q153
-2016;154;Geometria Analítica, Área sob parábola, Proporcionalidade;C;2016_q154
-2016;155;Análise Combinatória, Permutação, Arranjos;E;2016_q155
-2016;156;Estatística, Índice de Gini, Áreas de gráficos;A;2016_q156
-2016;157;Geometria Espacial, Distâncias em grade cartesiana;C;2016_q157
-2016;158;Equações algébricas, Área de figuras planas;B;2016_q158
-2016;159;Média aritmética, Estatística descritiva;D;2016_q159
-2016;160;Razão e Proporção, Densidade;A;2016_q160
-2016;161;Regra de três, Consumo de combustível;B;2016_q161
-2016;162;Progressões aritméticas, Mínimo múltiplo comum;D;2016_q162
-2016;163;Geometria Analítica, Comprimento de segmentos, Circunferência;B;2016_q163
-2016;164;Estatística, Moda;D;2016_q164
-2016;165;Porcentagem, Variação relativa;D;2016_q165
-2016;166;Função Afim, Gráficos lineares;A;2016_q166
-2016;167;Média aritmética, Proporcionalidade;B;2016_q167
-2016;168;Função Exponencial, Logaritmos;D;2016_q168
-2016;169;Geometria Espacial, Volume de paralelepípedo;D;2016_q169
-2016;170;Porcentagem, Proporcionalidade;E;2016_q170
-2016;171;Lucro, Porcentagem, Regra de três;C;2016_q171
-2016;172;Análise Combinatória, Probabilidade;A;2016_q172
-2016;173;Sistema de numeração decimal, Valor posicional;D;2016_q173
-2016;174;Função Afim, Vazão, Gráficos lineares;C;2016_q174
-2016;175;;C;2016_q175
-2016;176;;E;2016_q176
-2016;177;;A;2016_q177
-2016;178;;C;2016_q178
-2016;179;;B;2016_q179
-2016;180;;A;2016_q180
-2017;136;Análise Combinatória (Princípio Fundamental da Contagem);E;2017_q136
-2017;137;Progressão Aritmética / Análise Combinatória;E;2017_q137
-2017;138;Probabilidade (Probabilidade Condicional/Total);C;2017_q138
-2017;139;Funções (Grandezas Proporcionais e Vazão);A;2017_q139
-2017;140;Interpretação de Gráficos (Cinemática/Estatística);C;2017_q140
-2017;141;Geometria Plana (Área de Retângulo e Círculo);D;2017_q141
-2017;142;Razão e Proporção / Operações com Números Racionais;E;2017_q142
-2017;143;Geometria Espacial (Volume de Paralelepípedo/Cubo);C;2017_q143
-2017;144;Geometria Plana (Transformações Geométricas - Rotação);B;2017_q144
-2017;145;Estatística (Média Aritmética Ponderada);D;2017_q145
-2017;146;Análise Combinatória (Combinação com Repetição);B;2017_q146
-2017;147;Geometria Espacial (Volume) / Grandezas Proporcionais;B;2017_q147
-2017;148;Estatística (Margem de Erro e Medidas de Dispersão);E;2017_q148
-2017;149;Grandezas Proporcionais / Equações do 1º Grau (Tempo e Velocidade);B;2017_q149
-2017;150;Porcentagem / Interpretação de Gráficos;A;2017_q150
-2017;151;Geometria Espacial (Prismas);E;2017_q151
-2017;152;Probabilidade;A;2017_q152
-2017;153;Matemática Financeira (Juros Compostos / Valor Presente);E;2017_q153
-2017;154;Logaritmos / Equações Exponenciais;D;2017_q154
-2017;155;Trigonometria (Círculo Trigonométrico) / Porcentagem;B;2017_q155
-2017;156;Funções (Hipérbole / Estudo de Gráficos);E;2017_q156
-2017;157;Operações Básicas / Raciocínio Lógico (Otimização de Custos);C;2017_q157
-2017;158;Razão e Proporção;B;2017_q158
-2017;159;Interpretação de Gráficos (Análise de Funções);D;2017_q159
-2017;160;Geometria Plana (Teorema de Pitágoras / Altura de Triângulo);D;2017_q160
-2017;161;Geometria de Posição (Orientação e Localização);A;2017_q161
-2017;162;Estatística (Média Aritmética);B;2017_q162
-2017;163;Grandezas Inversamente Proporcionais (Engrenagens);D;2017_q163
-2017;164;Análise Combinatória (Princípio Multiplicativo / Coloração);B;2017_q164
-2017;165;Funções do 2º Grau (Otimização de Área);D;2017_q165
-2017;166;Operações com Números Reais / Leitura de Escalas;E;2017_q166
-2017;167;Geometria Plana (Circunferência) / Grandezas Proporcionais;A;2017_q167
-2017;168;Interpretação de Gráficos;B;2017_q168
-2017;169;Trigonometria (Lei dos Cossenos);D;2017_q169
-2017;170;Comparação de Números Decimais;C;2017_q170
-2017;171;Razão e Proporção (Escala Volumétrica);C;2017_q171
-2017;172;Funções do 2º Grau (Parábola);D;2017_q172
-2017;173;;A;2017_q173
-2017;174;;E;2017_q174
-2017;175;;A;2017_q175
-2017;176;;C;2017_q176
-2017;177;;B;2017_q177
-2017;178;;B;2017_q178
-2017;179;;A;2017_q179
-2017;180;;C;2017_q180
-2018;136;Geometria Analítica, Circunferência, Distâncias;A;2018_q136
-2018;137;Geometria Espacial, Volume, Organização de sólidos;D;2018_q137
-2018;138;Progressão aritmética, Contagem, Regra de três;C;2018_q138
-2018;139;Matrizes, Soma de elementos, Estatística descritiva;A;2018_q139
-2018;140;Juros compostos, Logaritmos, Valor presente;C;2018_q140
-2018;141;Geometria Analítica, Equações de reta e circunferência;E;2018_q141
-2018;142;Porcentagem, Estatística, Proporção;D;2018_q142
-2018;143;Análise combinatória, Porcentagem, Equações;D;2018_q143
-2018;144;Geometria Plana, Quadrados e triângulos, Relações métricas;A;2018_q144
-2018;145;Geometria Espacial, Hélice, Trigonometria;B;2018_q145
-2018;146;Probabilidade, Combinações, Urnas;E;2018_q146
-2018;147;Proporcionalidade, Áreas, Escalas;B;2018_q147
-2018;148;Geometria Analítica, Inequações, Conjunto de pontos;B;2018_q148
-2018;149;Função Exponencial, Logaritmos, Lei de Moore;C;2018_q149
-2018;150;Equações algébricas, Regra de três, Financiamento;B;2018_q150
-2018;151;Probabilidade, Estatística, Multiplicação de valores;C;2018_q151
-2018;152;Geometria Espacial, Cubo, Completar sólidos;A;2018_q152
-2018;153;Geometria Plana, Áreas de círculos, Tangência;D;2018_q153
-2018;154;Probabilidade, Combinatória, Tabuleiro;D;2018_q154
-2018;155;Função Afim, Porcentagem, Inclinação de rampa;A;2018_q155
-2018;156;Sequências, Progressões, Contagem de andares;C;2018_q156
-2018;157;Análise Combinatória, Arranjos, Escolha de elementos;C;2018_q157
-2018;158;Média ponderada, Porcentagem, Equações;C;2018_q158
-2018;159;Probabilidade, Estatística, Proporção;D;2018_q159
-2018;160;Função inversa quadrática, Gravitação, Proporcionalidade;E;2018_q160
-2018;161;Mistura de substâncias, Regra de três, Proporção;B;2018_q161
-2018;162;Tempo médio, Regra de três, Comparação de filas;B;2018_q162
-2018;163;Média aritmética, Estatística descritiva;D;2018_q163
-2018;164;Geometria Plana, Funções, Gráficos;A;2018_q164
-2018;165;Geometria Plana, Ângulos, Circunferência;E;2018_q165
-2018;166;Estatística, Método de Borda, Contagem;E;2018_q166
-2018;167;Questão incompleta no arquivo enviado;D;2018_q167
-2018;168;Função Exponencial, Logaritmos;B;2018_q168
-2018;169;Geometria Espacial, Volume de sólidos;E;2018_q169
-2018;170;Porcentagem, Proporção, Leis trabalhistas;ANULADO;2018_q170
-2018;171;Lucro, Porcentagem, Regra de três;B;2018_q171
-2018;172;Análise Combinatória, Probabilidade;C;2018_q172
-2018;173;Sistema de numeração decimal, Valor posicional;A;2018_q173
-2018;174;Função Afim, Vazão, Gráficos lineares;E;2018_q174
-2018;175;Estatística, Média, Desvio padrão;D;2018_q175
-2018;176;Proporcionalidade, Medidas geométricas;A;2018_q176
-2018;177;Interpretação de gráficos, Condições lógicas;B;2018_q177
-2018;178;Função Afim, Coeficiente angular, Gráficos;A;2018_q178
-2018;179;Função Inversa, Proporcionalidade, Modelagem matemática;D;2018_q179
-2018;180;Porcentagem, Estatística, Crescimento infantil;A;2018_q180
-2019;136;Notação Científica;D;2019_q136
-2019;137;Grandezas Proporcionais (Funções);B;2019_q137
-2019;138;Probabilidade;E;2019_q138
-2019;139;Porcentagem e Operações com Reais;B;2019_q139
-2019;140;Geometria Espacial (Vistas e Projeções);A;2019_q140
-2019;141;Matemática Financeira (Juros Compostos/Logaritmo);C;2019_q141
-2019;142;Escala (Razão e Proporção);A;2019_q142
-2019;143;Geometria Plana (Área de Polígonos);B;2019_q143
-2019;144;Estatística (Mediana);C;2019_q144
-2019;145;Análise Combinatória (Arranjo/Permutação);D;2019_q145
-2019;146;Geometria Espacial (Volume de Cilindro);B;2019_q146
-2019;147;Geometria Espacial (Vistas e Projeções);A;2019_q147
-2019;148;Porcentagem e Raciocínio Lógico;B;2019_q148
-2019;149;Razão e Proporção (Velocidade Média);E;2019_q149
-2019;150;Função Afim (Gráficos);C;2019_q150
-2019;151;Geometria Espacial (Tronco de Pirâmide/Volume);E;2019_q151
-2019;152;Estatística (Média Aritmética);E;2019_q152
-2019;153;Porcentagem / Aumento e Desconto;E;2019_q153
-2019;154;Razão e Proporção;D;2019_q154
-2019;155;Geometria Plana (Círculos e Arcos);C;2019_q155
-2019;156;Logaritmos (Escala Richter/Magnitude);B;2019_q156
-2019;157;Análise Combinatória (Combinação);D;2019_q157
-2019;158;Trigonometria (Triângulo Retângulo);C;2019_q158
-2019;159;Estatística (Moda e Mediana);C;2019_q159
-2019;160;Geometria Espacial (Planificação de Sólidos);E;2019_q160
-2019;161;Funções (Análise Gráfica / Pontos de Máximo);D;2019_q161
-2019;162;Geometria Plana (Áreas e Proporções);C;2019_q162
-2019;163;Análise Combinatória (Permutação com Repetição);D;2019_q163
-2019;164;Porcentagem e Razão;A;2019_q164
-2019;165;Geometria Espacial (Volume de Prismas);B;2019_q165
-2019;166;Matemática Financeira (Sistemas de Amortização);E;2019_q166
-2019;167;Progressão Aritmética (PA);D;2019_q167
-2019;168;Equação do 1º Grau / Problemas Lógicos;A;2019_q168
-2019;169;Razão e Proporção (Densidade Demográfica);A;2019_q169
-2019;170;Probabilidade Espacial / Geometria;D;2019_q170
-2019;171;Estatística (Média, Moda e Mediana);D;2019_q171
-2019;172;Geometria Analítica (Distância entre Pontos);D;2019_q172
-2019;173;Funções (Modelagem Matemática);E;2019_q173
-2019;174;Geometria Plana (Teorema de Pitágoras / Triângulos);C;2019_q174
-2019;175;Probabilidade (Eventos Independentes);A;2019_q175
-2019;176;Função Trigonométrica (Período e Amplitude);C;2019_q176
-2019;177;Razão e Proporção (Escala);A;2019_q177
-2019;178;Estatística (Média Ponderada);E;2019_q178
-2019;179;Interpretação de Gráficos e Tabelas;C;2019_q179
-2019;180;Estatística (Média e Projeção);B;2019_q180
-2020;136;Porcentagem / Interpretação de Gráficos;C;2020_q136
-2020;137;Operações Básicas / Raciocínio Lógico;A;2020_q137
-2020;138;Logaritmo / Função Exponencial (Meia-vida);B;2020_q138
-2020;139;Escala (Razão e Proporção);C;2020_q139
-2020;140;Geometria Espacial (Vistas e Projeções);A;2020_q140
-2020;141;Estatística (Média Aritmética);A;2020_q141
-2020;142;Razão e Proporção;C;2020_q142
-2020;143;Geometria Plana (Áreas e Perímetros);C;2020_q143
-2020;144;Análise Combinatória (Arranjo/Permutação);A;2020_q144
-2020;145;Porcentagem / Operações com Reais;C;2020_q145
-2020;146;Estatística (Mediana);D;2020_q146
-2020;147;Geometria Espacial (Volume de Prismas);A;2020_q147
-2020;148;Equação do 1º Grau / Problemas Lógicos;B;2020_q148
-2020;149;Funções (Análise de Gráficos);E;2020_q149
-2020;150;Geometria Espacial (Projeção Ortogonal);E;2020_q150
-2020;151;Funções (Comportamento de Função);E;2020_q151
-2020;152;Geometria Plana (Circunferência e Arcos);B;2020_q152
-2020;153;Porcentagem / Razão e Proporção;A;2020_q153
-2020;154;Estatística (Moda, Média e Mediana);E;2020_q154
-2020;155;Geometria Espacial (Sólidos de Revolução);C;2020_q155
-2020;156;Análise Combinatória (Combinação);ANULADO;2020_q156
-2020;157;Geometria Plana (Congruência e Semelhança);C;2020_q157
-2020;158;Trigonometria (Triângulo Retângulo);C;2020_q158
-2020;159;Logaritmos (Escala de Magnitude);C;2020_q159
-2020;160;Probabilidade;E;2020_q160
-2020;161;Progressão Aritmética (PA);E;2020_q161
-2020;162;Geometria Espacial (Planificação e Cubo);D;2020_q162
-2020;163;Matemática Financeira (Juros Compostos);B;2020_q163
-2020;164;Funções Trigonométricas (Seno/Cosseno);A;2020_q164
-2020;165;Estatística (Desvio Padrão);C;2020_q165
-2020;166;Geometria Plana (Teorema de Pitágoras);C;2020_q166
-2020;167;Análise Combinatória (Princípio Multiplicativo);D;2020_q167
-2020;168;Geometria Espacial (Volume de Cilindro);B;2020_q168
-2020;169;Função Quadrática (Vértice da Parábola);C;2020_q169
-2020;170;Razão e Proporção (Velocidade e Tempo);C;2020_q170
-2020;171;Matrizes (Operações e Interpretação);A;2020_q171
-2020;172;Probabilidade (Eventos Independentes);B;2020_q172
-2020;173;Geometria Plana (Área de Polígonos);B;2020_q173
-2020;174;Razão e Proporção / Divisibilidade;C;2020_q174
-2020;175;Geometria Analítica (Circunferência);C;2020_q175
-2020;176;Função Afim (Interpretação de Gráficos);B;2020_q176
-2020;177;Geometria Espacial (Volume e Vazão);D;2020_q177
-2020;178;Estatística (Média Aritmética);D;2020_q178
-2020;179;Interpretação de Gráficos (Vazão e Geometria);B;2020_q179
-2020;180;Porcentagem / Sistema de Equações;B;2020_q180
-2021;136;Função quadrática, Máximo de arrecadação, Gráficos;E;2021_q136
-2021;137;Criptografia, Estatística (frequência de letras), Análise combinatória;C;2021_q137
-2021;138;Estatística, Mediana;C;2021_q138
-2021;139;Regra de três, Porcentagem, Proporção;C;2021_q139
-2021;140;Funções trigonométricas, Movimento harmônico simples;A;2021_q140
-2021;141;Análise dimensional, Unidades de medida;B;2021_q141
-2021;142;Sistemas lineares, Proporção, Regra de três;B;2021_q142
-2021;143;Regra de três, Consumo de combustível, Proporção;D;2021_q143
-2021;144;Geometria Espacial, Áreas de superfícies, Escala;B;2021_q144
-2021;145;Geometria Espacial, Volume de cilindro, Regra de três;D;2021_q145
-2021;146;Gráficos, Proporção, Volume;D;2021_q146
-2021;147;Estatística, Média aritmética;D;2021_q147
-2021;148;Estatística, Porcentagem, Média ponderada;C;2021_q148
-2021;149;Estatística, Coeficiente de variação, Dispersão;E;2021_q149
-2021;150;Sistema de numeração romana, Conversão de números;D;2021_q150
-2021;151;Sistema binário, Operações em bases numéricas;D;2021_q151
-2021;152;Geometria Espacial, Área, Conversão de unidades;C;2021_q152
-2021;153;Análise Combinatória, Arranjos;A;2021_q153
-2021;154;Regra de três, Proporção, Custo-benefício;B;2021_q154
-2021;155;Análise Combinatória, Permutação, Arranjos;ANULADO;2021_q155
-2021;156;Sequências, Proporção áurea, Potências;E;2021_q156
-2021;157;Geometria Espacial, Projeções ortogonais, Cubo;E;2021_q157
-2021;158;Estatística, Média aritmética, Comparação;E;2021_q158
-2021;159;Estatística, Média ponderada, Classificação;B;2021_q159
-2021;160;Função Afim, Modelagem matemática;A;2021_q160
-2021;161;Probabilidade, Complemento de eventos;B;2021_q161
-2021;162;Geometria Espacial, Planificação de sólidos, Octaedro;E;2021_q162
-2021;163;Geometria Plana, Triângulo equilátero, Perímetro;D;2021_q163
-2021;164;Geometria Espacial, Volume de tronco de cone;C;2021_q164
-2021;165;Geometria Plana, Ângulos, Circunferência;E;2021_q165
-2021;166;Estatística, Método de Borda, Contagem;D;2021_q166
-2021;167;Questão incompleta no arquivo enviado;C;2021_q167
-2021;168;Função Exponencial, Logaritmos;C;2021_q168
-2021;169;Geometria Espacial, Volume de sólidos;A;2021_q169
-2021;170;Porcentagem, Proporção, Leis trabalhistas;E;2021_q170
-2021;171;Lucro, Porcentagem, Regra de três;B;2021_q171
-2021;172;Análise Combinatória, Probabilidade;A;2021_q172
-2021;173;Sistema de numeração decimal, Valor posicional;D;2021_q173
-2021;174;Função Afim, Vazão, Gráficos lineares;B;2021_q174
-2021;175;Estatística, Média, Desvio padrão;C;2021_q175
-2021;176;Proporcionalidade, Medidas geométricas;C;2021_q176
-2021;177;Interpretação de gráficos, Condições lógicas;E;2021_q177
-2021;178;Função Afim, Coeficiente angular, Gráficos;C;2021_q178
-2021;179;Função Inversa, Proporcionalidade, Modelagem matemática;D;2021_q179
-2021;180;Porcentagem, Estatística, Crescimento infantil;A;2021_q180
-2022;136;Estatística (Média Aritmética);B;2022_q136
-2022;137;Geometria Espacial (Projeção Ortogonal);E;2022_q137
-2022;138;Porcentagem e Operações com Racionais;E;2022_q138
-2022;139;Geometria Espacial (Cilindros e Volume);D;2022_q139
-2022;140;Geometria Plana (Áreas de Círculos);A;2022_q140
-2022;141;Razão e Proporção (Escalas);E;2022_q141
-2022;142;Estatística (Média e Mediana);A;2022_q142
-2022;143;Análise Combinatória (Princípio Multiplicativo);B;2022_q143
-2022;144;Razão e Proporção (Gráficos);D;2022_q144
-2022;145;Porcentagem e Matemática Financeira;D;2022_q145
-2022;146;Geometria Espacial (Vistas e Planificação);C;2022_q146
-2022;147;Função Afim (Interpretação de Gráficos);E;2022_q147
-2022;148;Logaritmos (Escala de pH);B;2022_q148
-2022;149;Razão e Proporção;D;2022_q149
-2022;150;Análise Combinatória (Permutação);B;2022_q150
-2022;151;Geometria Plana (Teorema de Pitágoras);A;2022_q151
-2022;152;Estatística (Moda e Mediana);A;2022_q152
-2022;153;Porcentagem e Comparação de Valores;A;2022_q153
-2022;154;Geometria Espacial (Volumes e Vazão);A;2022_q154
-2022;155;Probabilidade;A;2022_q155
-2022;156;Geometria Plana (Semelhança de Triângulos);C;2022_q156
-2022;157;Razão e Proporção (Grandezas Inversas);ANULADO;2022_q157
-2022;158;Funções (Análise de Máximos e Mínimos);C;2022_q158
-2022;159;Geometria Analítica (Distância entre Pontos);B;2022_q159
-2022;160;Estatística (Desvio Padrão);C;2022_q160
-2022;161;Progressão Geométrica (PG);C;2022_q161
-2022;162;Geometria Espacial (Prismas e Áreas);C;2022_q162
-2022;163;Função Quadrática (Parábola);B;2022_q163
-2022;164;Porcentagem e Raciocínio Lógico;C;2022_q164
-2022;165;Probabilidade (Eventos Sucessivos);C;2022_q165
-2022;166;Geometria Plana (Ângulos e Triângulos);D;2022_q166
-2022;167;Matemática Financeira (Juros Simples);B;2022_q167
-2022;168;Análise Combinatória (Combinação);D;2022_q168
-2022;169;Geometria Espacial (Esfera e Volume);E;2022_q169
-2022;170;Funções Trigonométricas (Período);E;2022_q170
-2022;171;Estatística (Média Ponderada);C;2022_q171
-2022;172;Razão e Proporção (Escalas de Mapas);B;2022_q172
-2022;173;Geometria Plana (Círculos e Tangência);D;2022_q173
-2022;174;Matrizes (Interpretação);C;2022_q174
-2022;175;Probabilidade Condicional;A;2022_q175
-2022;176;Logaritmos e Exponenciais;B;2022_q176
-2022;177;Geometria Plana (Área de Polígonos);E;2022_q177
-2022;178;Funções (Domínio e Imagem);E;2022_q178
-2022;179;Interpretação de Gráficos e Tabelas;C;2022_q179
-2022;180;Progressão Aritmética (PA);D;2022_q180
-2023;136;Regra de três, Tempo médio, Comparação de filas;E;2023_q136
-2023;137;Geometria Plana, Círculo, Segmento circular;B;2023_q137
-2023;138;Geometria Plana, Área de quadrado, Área de calçada;D;2023_q138
-2023;139;Gráficos, Interpretação de funções, Intervalos;A;2023_q139
-2023;140;Juros compostos, Porcentagem, Equações;D;2023_q140
-2023;141;Função Afim, Modelagem matemática;D;2023_q141
-2023;142;Gráficos, Interpretação de trajetórias;A;2023_q142
-2023;143;Sistema de coordenadas, Contagem de posições;E;2023_q143
-2023;144;Sistemas lineares, Equações, Proporção;B;2023_q144
-2023;145;Sequências numéricas, Números figurados;E;2023_q145
-2023;146;Funções trigonométricas, Movimento circular;A;2023_q146
-2023;147;Geometria Espacial, Volume de cilindro, Vazão;C;2023_q147
-2023;148;Geometria Plana, Ângulos, Simetria;B;2023_q148
-2023;149;Progressão aritmética, Combinatória, Soma em triângulo mágico;E;2023_q149
-2023;150;Regra de três, Proporção, Consumo de carboidratos;D;2023_q150
-2023;151;Trigonometria, Funções seno/cosseno, Comprimento de cabos;C;2023_q151
-2023;152;Escalas, Proporção, Geometria Plana;E;2023_q152
-2023;153;Regra de três, Conversão de unidades, Calendário maia;C;2023_q153
-2023;154;Teorema de Pitágoras, Geometria Plana, Áreas de círculos;C;2023_q154
-2023;155;Análise dimensional, Unidades de medida;B;2023_q155
-2023;156;Probabilidade, Contagem ponderada;E;2023_q156
-2023;157;Geometria Espacial, Volume de cilindro, Regra de três;A;2023_q157
-2023;158;Regra de três, Porcentagem, Proporção;B;2023_q158
-2023;159;Estatística, Média ponderada, Gasto calórico;C;2023_q159
-2023;160;Regra de três, Porcentagem, Proporção;A;2023_q160
-2023;161;Progressão aritmética, Comparação de vendas;D;2023_q161
-2023;162;Estatística, Média, Mediana, Moda;E;2023_q162
-2023;163;Função Afim, Gráficos, Vazão;B;2023_q163
-2023;164;Sistemas de numeração, Representação cultural;C;2023_q164
-2023;165;Estatística, Média aritmética, Precipitação;C;2023_q165
-2023;166;Geometria Espacial, Volume de tronco de cone e cilindro;B;2023_q166
-2023;167;Média aritmética, Estatística;C;2023_q167
-2023;168;;C;2023_q168
-2023;169;;Anulado;2023_q169
-2023;170;;E;2023_q170
-2023;171;;B;2023_q171
-2023;172;;D;2023_q172
-2023;173;;D;2023_q173
-2023;174;;A;2023_q174
-2023;175;;A;2023_q175
-2023;176;;B;2023_q176
-2023;177;;B;2023_q177
-2023;178;;A;2023_q178
-2023;179;;D;2023_q179
-2023;180;;D;2023_q180
-2024;136;Geometria Espacial (Volume de Cilindro);D;2024_q136
-2024;137;Função Afim (Interpretação de Gráfico e Tendência);B;2024_q137
-2024;138;Razão e Proporção (Velocidade Média);C;2024_q138
-2024;139;Porcentagem / Operações com Números Reais;E;2024_q139
-2024;140;Geometria Plana (Área de Polígonos e Triângulos);C;2024_q140
-2024;141;Estatística (Média Aritmética);E;2024_q141
-2024;142;Análise Combinatória (Princípio Multiplicativo);A;2024_q142
-2024;143;Geometria Espacial (Vistas e Projeções);C;2024_q143
-2024;144;Probabilidade (Eventos Independentes);A;2024_q144
-2024;145;Razão e Proporção (Escala);D;2024_q145
-2024;146;Matemática Financeira (Juros Simples / Porcentagem);A;2024_q146
-2024;147;Geometria Espacial (Volume de Prismas);B;2024_q147
-2024;148;Logaritmos (Escalas Logarítmicas);B;2024_q148
-2024;149;Estatística (Mediana e Moda);E;2024_q149
-2024;150;Geometria Plana (Círculo e Perímetro);C;2024_q150
-2024;151;Funções (Análise Gráfica / Pontos Críticos);B;2024_q151
-2024;152;Razão e Proporção (Grandezas Inversas);E;2024_q152
-2024;153;Análise Combinatória (Combinação);D;2024_q153
-2024;154;Progressão Aritmética (PA);A;2024_q154
-2024;155;Geometria Espacial (Sólidos de Revolução);D;2024_q155
-2024;156;Porcentagem e Comparação de Grandezas;C;2024_q156
-2024;157;Probabilidade Condicional;C;2024_q157
-2024;158;Funções Trigonométricas (Senoide / Amplitude);D;2024_q158
-2024;159;Geometria Plana (Teorema de Pitágoras);C;2024_q159
-2024;160;Estatística (Média Ponderada);C;2024_q160
-2024;161;Funções Trigonométricas (Análise de Gráficos);A;2024_q161
-2024;162;Geometria Analítica (Circunferência e Reta);B;2024_q162
-2024;163;Grandezas Proporcionais (Vazão e Tempo);B;2024_q163
-2024;164;Geometria Espacial (Tronco de Cone/Pirâmide);B;2024_q164
-2024;165;Porcentagem (Aumentos Sucessivos);C;2024_q165
-2024;166;Análise Combinatória (Permutação com Repetição);E;2024_q166
-2024;167;Função Quadrática (Máximos e Mínimos);C;2024_q167
-2024;168;Geometria Plana (Semelhança de Triângulos);E;2024_q168
-2024;169;Estatística (Variância e Desvio Padrão);B;2024_q169
-2024;170;Progressão Geométrica (PG);C;2024_q170
-2024;171;Razão e Proporção (Escala Volumétrica);E;2024_q171
-2024;172;Geometria Espacial (Planificação);A;2024_q172
-2024;173;Logaritmos e Exponenciais (Modelagem);D;2024_q173
-2024;174;Matrizes (Operações e Transposição);A;2024_q174
-2024;175;Trigonometria (Lei dos Senos/Cossenos);B;2024_q175
-2024;176;Geometria Plana (Áreas e Proporções);B;2024_q176
-2024;177;Probabilidade (Eventos Complementares);A;2024_q177
-2024;178;Funções (Interpretação de Funções Compostas);D;2024_q178
-2024;179;Interpretação de Tabelas e Lógica;D;2024_q179
-2024;180;Geometria Analítica (Distância entre Pontos);D;2024_q180
-2025;136;Razão e Proporção (Escala);A;2025_q136
-2025;137;Estatística (Média Aritmética e Projeção);D;2025_q137
-2025;138;Geometria Espacial (Vistas e Projeção Ortogonal);D;2025_q138
-2025;139;Porcentagem e Operações com Reais;B;2025_q139
-2025;140;Funções (Análise Gráfica de Crescimento);B;2025_q140
-2025;141;Geometria Plana (Área de Triângulos e Quadriláteros);C;2025_q141
-2025;142;Análise Combinatória (Permutação);E;2025_q142
-2025;143;Estatística (Mediana);C;2025_q143
-2025;144;Razão e Proporção (Grandezas Inversamente Proporcionais);E;2025_q144
-2025;145;Porcentagem (Aumentos e Descontos Sucessivos);C;2025_q145
-2025;146;Geometria Espacial (Volume de Paralelepípedo);C;2025_q146
-2025;147;Função Afim (Modelagem Matemática);B;2025_q147
-2025;148;Probabilidade (Eventos Independentes);D;2025_q148
-2025;149;Trigonometria (Triângulo Retângulo);D;2025_q149
-2025;150;Geometria Plana (Círculos e Setores Circulares);D;2025_q150
-2025;151;Matemática Financeira (Análise de Investimentos);E;2025_q151
-2025;152;Estatística (Média Ponderada);C;2025_q152
-2025;153;Logaritmos (Aplicações em Escalas);A;2025_q153
-2025;154;Geometria Analítica (Equação da Reta);C;2025_q154
-2025;155;Geometria Espacial (Volume de Cilindros e Cones);E;2025_q155
-2025;156;Análise Combinatória (Combinação);A;2025_q156
-2025;157;Porcentagem e Raciocínio Lógico;B;2025_q157
-2025;158;Funções Trigonométricas (Seno/Cosseno e Período);D;2025_q158
-2025;159;Razão e Proporção (Escala Linear vs Volumétrica);E;2025_q159
-2025;160;Geometria Plana (Semelhança e Teorema de Tales);B;2025_q160
-2025;161;Estatística (Variância e Desvio Padrão);E;2025_q161
-2025;162;Geometria Analítica (Distância entre Ponto e Reta);C;2025_q162
-2025;163;Função Quadrática (Ponto de Máximo/Vértice);C;2025_q163
-2025;164;Geometria Espacial (Planificação de Sólidos);D;2025_q164
-2025;165;Probabilidade Condicional;B;2025_q165
-2025;166;Matemática Financeira (Sistemas de Amortização);A;2025_q166
-2025;167;Progressão Aritmética (PA);B;2025_q167
-2025;168;Equação do 1º Grau / Sistemas Lineares;E;2025_q168
-2025;169;Geometria Plana (Propriedades de Polígonos Regulares);A;2025_q169
-2025;170;Porcentagem e Interpretação de Tabelas;A;2025_q170
-2025;171;Razão e Proporção (Densidade e Misturas);A;2025_q171
-2025;172;Geometria Espacial (Esferas e Volume);Anulado;2025_q172
-2025;173;Funções (Gráficos de Funções Exponenciais);C;2025_q173
-2025;174;Estatística (Moda e Comparação de Dados);C;2025_q174
-2025;175;Matrizes (Interpretação e Representação de Dados);B;2025_q175
-2025;176;Trigonometria (Lei dos Cossenos);E;2025_q176
-2025;177;Geometria Analítica (Equação da Circunferência);A;2025_q177
-2025;178;Probabilidade (Eventos Complementares);D;2025_q178
-2025;179;Razão e Proporção (Consumo e Combustíveis);D;2025_q179
-2025;180;Operações Básicas / Otimização (Aritmética);E;2025_q180
-
+ano,numero,conteudos,alternativa,arquivo_imagem
+2009,136,Razão e proporção,E,2009_q136
+2009,137,Volume de tronco de cone,C,2009_q137
+2009,138,Razão e proporção,D,2009_q138
+2009,139,Volume de paralelepípedo e cubo,A,2009_q139
+2009,140,Porcentagem e regra de três simples,D,2009_q140
+2009,141,Média aritmética e leitura de gráficos,C,2009_q141
+2009,142,Análise combinatória: permutação com repetição,D,2009_q142
+2009,143,Sistema de equações lineares,E,2009_q143
+2009,144,Equação do 1º grau,D,2009_q144
+2009,145,Geometria analítica: equações de reta,C,2009_q145
+2009,146,Estatística: porcentagem,C,2009_q146
+2009,147,Função do 1º grau,A,2009_q147
+2009,148,Geometria plana: perímetro e relações métricas,D,2009_q148
+2009,149,Interpretação de gráficos de setor,E,2009_q149
+2009,150,Porcentagem aplicada a variação de preços,D,2009_q150
+2009,151,Estatística: leitura de gráficos e dados,A,2009_q151
+2009,152,Função quadrática: ponto de máximo,D,2009_q152
+2009,153,Geometria espacial: tronco de cone,E,2009_q153
+2009,154,Estatística: porcentagem,D,2009_q154
+2009,155,Aritmética: frações e proporção,D,2009_q155
+2009,156,Probabilidade,D,2009_q156
+2009,157,Geometria plana: ângulos e distância (trigonometria),B,2009_q157
+2009,158,Função do 1º grau,A,2009_q158
+2009,159,Aritmética: progressão aritmética,E,2009_q159
+2009,160,Sistema de equações lineares,D,2009_q160
+2009,161,Geometria analítica: ponto médio e distância,D,2009_q161
+2009,162,Interpretação de gráficos,A,2009_q162
+2009,163,Estatística: média, moda, mediana,B,2009_q163
+2009,164,Porcentagem aplicada a questões ambientais,E,2009_q164
+2009,165,Geometria espacial: volume de cubo,A,2009_q165
+2009,166,Análise e comparação de áreas planas,B,2009_q166
+2009,167,Equação do 1º grau: tempo e proporção,E,2009_q167
+2009,168,Função quadrática: resolução de equações,D,2009_q168
+2009,169,Sequência numérica: múltiplos de 11,D,2009_q169
+2009,170,Escala e razão entre áreas,B,2009_q170
+2009,171,Geometria plana: redução de área (porcentagem),C,2009_q171
+2009,172,Probabilidade ponderada,C,2009_q172
+2009,173,Análise combinatória: permutação,E,2009_q173
+2009,174,Estatística: leitura de tabela de frequências,B,2009_q174
+2009,175,Estatística: moda,B,2009_q175
+2009,176,Sequência: Triângulo de Pascal,C,2009_q176
+2009,177,Potências de 10 e estimativas,C,2009_q177
+2009,178,Comparação volumétrica: estimativa,E,2009_q178
+2009,179,Geometria espacial: volume do cubo,B,2009_q179
+2009,180,Leitura de gráfico temporal de produção,B,2009_q180
+2010,136,Porcentagem (Representação Visual/Geométrica),C,2010_q136
+2010,137,Geometria Espacial (Planificação de Sólidos - Cilindros),E,2010_q137
+2010,138,Funções (Análise de Gráficos de Crescimento),E,2010_q138
+2010,139,Geometria Plana (Cálculo de Áreas / Razão e Proporção),B,2010_q139
+2010,140,Geometria Espacial (Volume de Prismas),A,2010_q140
+2010,141,Estatística (Média Aritmética),B,2010_q141
+2010,142,Razão e Proporção (Divisão Proporcional),D,2010_q142
+2010,143,Geometria Espacial (Vistas e Perspectivas),D,2010_q143
+2010,144,Probabilidade (Espaço Amostral),A,2010_q144
+2010,145,Porcentagem / Interpretação de Tabelas,D,2010_q145
+2010,146,Geometria Plana (Círculos e Arcos),C,2010_q146
+2010,147,Equação do 1º Grau / Problemas de Contagem,D,2010_q147
+2010,148,Estatística (Leitura de Gráficos de Setores),B,2010_q148
+2010,149,Razão e Proporção (Escalas de Mapas),C,2010_q149
+2010,150,Geometria Plana (Ladrilhamento / Polígonos),A,2010_q150
+2010,151,Grandezas Inversamente Proporcionais,E,2010_q151
+2010,152,Geometria Espacial (Projeção Ortogonal),B,2010_q152
+2010,153,Análise Combinatória (Princípio Multiplicativo),B,2010_q153
+2010,154,Trigonometria (Triângulo Retângulo),C,2010_q154
+2010,155,Funções (Interpretação de Gráficos de Funções Periódicas),B,2010_q155
+2010,156,Porcentagem e Operações com Decimais,E,2010_q156
+2010,157,Geometria Plana (Teorema de Pitágoras),D,2010_q157
+2010,158,Estatística (Média e Mediana),B,2010_q158
+2010,159,Geometria Espacial (Volume de Troncos),C,2010_q159
+2010,160,Logaritmos (Cálculo de Intensidade Sonora),E,2010_q160
+2010,161,Progressão Aritmética (PA),B,2010_q161
+2010,162,Geometria Plana (Área de Polígonos Regulares),A,2010_q162
+2010,163,Matrizes (Organização de Dados),D,2010_q163
+2010,164,Probabilidade de Eventos Sucessivos,C,2010_q164
+2010,165,Razão e Proporção (Vazão e Tempo),A,2010_q165
+2010,166,Geometria Espacial (Cilindros e Esferas),B,2010_q166
+2010,167,Função do 2º Grau (Estudo do Vértice/Máximos),D,2010_q167
+2010,168,Raciocínio Lógico / Aritmética Básica,C,2010_q168
+2010,169,Geometria Analítica (Coordenadas Cartesianas),A,2010_q169
+2010,170,Porcentagem (Aumentos e Descontos),E,2010_q170
+2010,171,Estatística (Desvio Padrão e Variância),C,2010_q171
+2010,172,Geometria Plana (Perímetros e Arcos),C,2010_q172
+2010,173,Matemática Financeira (Juros Simples),A,2010_q173
+2010,174,Análise Combinatória (Combinação),D,2010_q174
+2010,175,Razão e Proporção (Densidade e Massa),E,2010_q175
+2010,176,Geometria Espacial (Planificação e Cubo),B,2010_q176
+2010,177,Funções (Domínio e Imagem),D,2010_q177
+2010,178,Operações Básicas / Raciocínio Proporcional,C,2010_q178
+2010,179,Geometria Espacial (Cálculo de Volume de Madeira/Sólidos Vazados),D,2010_q179
+2010,180,Funções (Interpretação de Gráficos de Velocidade),C,2010_q180
+2011,136,Sistema de numeração decimal, Leitura de instrumentos de medida,A,2011_q136
+2011,137,Conversão de unidades, Sistema métrico decimal,B,2011_q137
+2011,138,Logaritmos, Potências de base 10, Função logarítmica,E,2011_q138
+2011,139,Números decimais, Valor absoluto, Comparação de medidas,E,2011_q139
+2011,140,Porcentagem, Proporcionalidade, Conversão de unidades de volume,E,2011_q140
+2011,141,Razão e proporção, Regra de três, Grandezas proporcionais,B,2011_q141
+2011,142,Geometria plana, Perímetro, Área de retângulos,C,2011_q142
+2011,143,Escala, Razão e proporção, Conversão de unidades,E,2011_q143
+2011,144,Geometria espacial, Simetria, Poliedros,E,2011_q144
+2011,145,Estatística, Média, Mediana, Moda,B,2011_q145
+2011,146,Escala, Conversão de unidades, Proporcionalidade,C,2011_q146
+2011,147,Geometria espacial, Sólidos de revolução,E,2011_q147
+2011,148,Conversão de unidades, Proporcionalidade,C,2011_q148
+2011,149,Geometria analítica, Distância entre pontos, Plano cartesiano,B,2011_q149
+2011,150,Expressões algébricas, Razão, Interpretação de fórmulas,A,2011_q150
+2011,151,Geometria plana, Simetria de rotação,D,2011_q151
+2011,152,Proporcionalidade, Regra de três, Operações com racionais,E,2011_q152
+2011,153,Estatística, Média aritmética, Leitura de tabela,C,2011_q153
+2011,154,Função afim, Proporcionalidade direta, Gráficos,E,2011_q154
+2011,155,Porcentagem, Juros simples, Análise financeira,D,2011_q155
+2011,156,Razão, Porcentagem, Interpretação de tabelas,B,2011_q156
+2011,157,Trigonometria, Geometria plana,B,2011_q157
+2011,158,Função afim, Progressão aritmética, Modelagem algébrica,C,2011_q158
+2011,159,Progressão aritmética, Sequências numéricas,D,2011_q159
+2011,160,Equação do 1º grau, Função afim, Comparação de custos,A,2011_q160
+2011,161,Porcentagem, Operações com racionais,C,2011_q161
+2011,162,Razão, Densidade demográfica,B,2011_q162
+2011,163,Probabilidade, Interpretação de gráficos,E,2011_q163
+2011,164,Potência elétrica, Consumo de energia, Proporcionalidade,D,2011_q164
+2011,165,Fórmulas algébricas, Razão, Interpretação de tabelas,B,2011_q165
+2011,166,Geometria plana, Comprimento de circunferência, Arcos,A,2011_q166
+2011,167,Proporcionalidade, Porcentagem,D,2011_q167
+2011,168,Análise combinatória, Probabilidade,C,2011_q168
+2011,169,Geometria espacial, Volume do cilindro, Razão,C,2011_q169
+2011,170,Probabilidade, Interpretação de gráficos estatísticos,D,2011_q170
+2011,171,Probabilidade, Estatística, Leitura de tabelas,C,2011_q171
+2011,172,Função afim, Inequações, Análise de lucro,D,2011_q172
+2011,173,Análise de gráficos de função afim,D,2011_q173
+2011,174,Proporcionalidade, Expressões algébricas, Modelagem,C,2011_q174
+2011,175,Juros compostos, Função exponencial, Comparação de taxas,C,2011_q175
+2011,176,Análise combinatória, Ordenação, Sistema de numeração,E,2011_q176
+2011,177,Porcentagem, Estatística, Interpretação de gráficos,C,2011_q177
+2011,178,Ordem de grandeza, Proporcionalidade, Leitura de tabelas,A,2011_q178
+2011,179,Teoria dos grafos, Caminhos, Raciocínio lógico,C,2011_q179
+2011,180,Interpretação de gráficos, Análise temporal,C,2011_q180
+2012,136,Razão e proporção, Regra de três, Interpretação de texto,A,2012_q136
+2012,137,Geometria plana, Área de figuras planas, Proporcionalidade,B,2012_q137
+2012,138,Função afim, Análise de gráficos, Taxa de variação,E,2012_q138
+2012,139,Estatística, Média aritmética, Interpretação de tabela,E,2012_q139
+2012,140,Porcentagem, Acréscimos e decréscimos percentuais,E,2012_q140
+2012,141,Geometria espacial, Volume de prismas,B,2012_q141
+2012,142,Conversão de unidades, Sistema métrico decimal,C,2012_q142
+2012,143,Função exponencial, Crescimento populacional,E,2012_q143
+2012,144,Probabilidade, Análise combinatória simples,E,2012_q144
+2012,145,Geometria plana, Teorema de Pitágoras,B,2012_q145
+2012,146,Escala, Proporcionalidade, Medidas de comprimento,C,2012_q146
+2012,147,Estatística, Gráficos de setores,E,2012_q147
+2012,148,Razão, Densidade, Interpretação de dados,C,2012_q148
+2012,149,Geometria analítica, Distância entre pontos,B,2012_q149
+2012,150,Função afim, Sistemas lineares, Modelagem algébrica,A,2012_q150
+2012,151,Porcentagem, Juros simples,D,2012_q151
+2012,152,Progressão aritmética, Sequências numéricas,E,2012_q152
+2012,153,Geometria espacial, Volume do cilindro,C,2012_q153
+2012,154,Probabilidade, Eventos independentes,E,2012_q154
+2012,155,Função quadrática, Análise de gráfico,D,2012_q155
+2012,156,Estatística, Mediana, Interpretação de dados,B,2012_q156
+2012,157,Trigonometria, Razões trigonométricas no triângulo retângulo,B,2012_q157
+2012,158,Escala, Área, Conversão de unidades,C,2012_q158
+2012,159,Função exponencial, Decaimento,D,2012_q159
+2012,160,Geometria plana, Comprimento de circunferência,A,2012_q160
+2012,161,Porcentagem, Análise financeira,C,2012_q161
+2012,162,Análise combinatória, Princípio multiplicativo,B,2012_q162
+2012,163,Estatística, Leitura de gráfico de linhas,E,2012_q163
+2012,164,Razão e proporção, Regra de três composta,D,2012_q164
+2012,165,Geometria espacial, Volume da esfera,B,2012_q165
+2012,166,Função afim, Inequações,A,2012_q166
+2012,167,Probabilidade, Espaço amostral,D,2012_q167
+2012,168,Progressão geométrica, Crescimento exponencial,C,2012_q168
+2012,169,Geometria plana, Semelhança de triângulos,C,2012_q169
+2012,170,Estatística, Média ponderada,D,2012_q170
+2012,171,Função quadrática, Máximo e mínimo,C,2012_q171
+2012,172,Conversão de unidades, Consumo de energia elétrica,D,2012_q172
+2012,173,Razão, Proporcionalidade direta,D,2012_q173
+2012,174,Probabilidade, Interpretação de tabela,C,2012_q174
+2012,175,Juros compostos, Função exponencial,C,2012_q175
+2012,176,Geometria analítica, Equação da reta,E,2012_q176
+2012,177,Estatística, Desvio e dispersão de dados,C,2012_q177
+2012,178,Análise combinatória, Arranjos simples,A,2012_q178
+2012,179,Geometria espacial, Área lateral e total de sólidos,C,2012_q179
+2012,180,Interpretação de gráficos, Análise de variação,C,2012_q180
+2013,136,Razão e proporção, Regra de três,C,2013_q136
+2013,137,Geometria plana, Área de figuras planas,A,2013_q137
+2013,138,Estatística, Média aritmética, Interpretação de gráfico,A,2013_q138
+2013,139,Função afim, Análise de gráfico,C,2013_q139
+2013,140,Porcentagem, Acréscimos e decréscimos percentuais,D,2013_q140
+2013,141,Geometria espacial, Volume de sólidos,D,2013_q141
+2013,142,Conversão de unidades, Sistema métrico decimal,A,2013_q142
+2013,143,Probabilidade, Espaço amostral,E,2013_q143
+2013,144,Função exponencial, Crescimento,E,2013_q144
+2013,145,Geometria plana, Teorema de Pitágoras,B,2013_q145
+2013,146,Escala, Proporcionalidade,A,2013_q146
+2013,147,Estatística, Gráfico de setores,C,2013_q147
+2013,148,Razão, Densidade,E,2013_q148
+2013,149,Geometria analítica, Distância entre pontos,D,2013_q149
+2013,150,Função afim, Modelagem algébrica,B,2013_q150
+2013,151,Porcentagem, Juros simples,C,2013_q151
+2013,152,Progressão aritmética,A,2013_q152
+2013,153,Geometria espacial, Volume do cilindro,A,2013_q153
+2013,154,Probabilidade, Eventos independentes,B,2013_q154
+2013,155,Função quadrática, Análise de gráfico,B,2013_q155
+2013,156,Estatística, Mediana,E,2013_q156
+2013,157,Trigonometria, Razões trigonométricas,B,2013_q157
+2013,158,Escala, Área, Conversão de unidades,E,2013_q158
+2013,159,Função exponencial, Decaimento,D,2013_q159
+2013,160,Geometria plana, Comprimento de circunferência,C,2013_q160
+2013,161,Porcentagem, Análise financeira,B,2013_q161
+2013,162,Análise combinatória, Princípio multiplicativo,B,2013_q162
+2013,163,Estatística, Gráfico de linhas,D,2013_q163
+2013,164,Razão e proporção, Regra de três composta,C,2013_q164
+2013,165,Geometria espacial, Volume da esfera,E,2013_q165
+2013,166,Função afim, Inequações,C,2013_q166
+2013,167,Probabilidade,B,2013_q167
+2013,168,Progressão geométrica,D,2013_q168
+2013,169,Geometria plana, Semelhança de triângulos,A,2013_q169
+2013,170,Estatística, Média ponderada,D,2013_q170
+2013,171,Função quadrática, Máximo e mínimo,C,2013_q171
+2013,172,Conversão de unidades, Consumo de energia,B,2013_q172
+2013,173,Proporcionalidade direta,A,2013_q173
+2013,174,Probabilidade, Interpretação de tabela,D,2013_q174
+2013,175,Juros compostos, Função exponencial,C,2013_q175
+2013,176,Geometria analítica, Equação da reta,D,2013_q176
+2013,177,Estatística, Dispersão de dados,E,2013_q177
+2013,178,Análise combinatória, Arranjos,E,2013_q178
+2013,179,Geometria espacial, Área total de sólidos,D,2013_q179
+2013,180,Interpretação de gráficos, Variação temporal,C,2013_q180
+2014,136,Razão e proporção, Regra de três,C,2014_q136
+2014,137,Geometria plana, Área de polígonos,E,2014_q137
+2014,138,Estatística, Média e interpretação de gráfico,C,2014_q138
+2014,139,Função afim, Taxa de variação,A,2014_q139
+2014,140,Porcentagem, Juros simples,C,2014_q140
+2014,141,Geometria espacial, Volume de prismas,B,2014_q141
+2014,142,Conversão de unidades,C,2014_q142
+2014,143,Probabilidade,A,2014_q143
+2014,144,Função exponencial,B,2014_q144
+2014,145,Geometria plana, Pitágoras,A,2014_q145
+2014,146,Escala, Proporcionalidade,B,2014_q146
+2014,147,Estatística, Gráfico de colunas,D,2014_q147
+2014,148,Razão, Densidade demográfica,B,2014_q148
+2014,149,Geometria analítica, Distância entre pontos,D,2014_q149
+2014,150,Função afim, Modelagem,A,2014_q150
+2014,151,Porcentagem,D,2014_q151
+2014,152,Progressão aritmética,C,2014_q152
+2014,153,Geometria espacial, Volume do cone,D,2014_q153
+2014,154,Probabilidade, Eventos dependentes,A,2014_q154
+2014,155,Função quadrática,E,2014_q155
+2014,156,Estatística, Mediana,A,2014_q156
+2014,157,Trigonometria,E,2014_q157
+2014,158,Escala, Área,C,2014_q158
+2014,159,Função exponencial,B,2014_q159
+2014,160,Geometria plana, Circunferência,B,2014_q160
+2014,161,Porcentagem, Análise financeira,C,2014_q161
+2014,162,Análise combinatória,A,2014_q162
+2014,163,Estatística, Gráfico de linhas,E,2014_q163
+2014,164,Razão e proporção,A,2014_q164
+2014,165,Geometria espacial, Volume da esfera,D,2014_q165
+2014,166,Função afim, Inequações,B,2014_q166
+2014,167,Probabilidade,E,2014_q167
+2014,168,Progressão geométrica,D,2014_q168
+2014,169,Geometria plana, Semelhança,B,2014_q169
+2014,170,Estatística, Média ponderada,E,2014_q170
+2014,171,Função quadrática,C,2014_q171
+2014,172,Conversão de unidades, Energia elétrica,B,2014_q172
+2014,173,Proporcionalidade direta,D,2014_q173
+2014,174,Probabilidade, Tabelas,E,2014_q174
+2014,175,Juros compostos,C,2014_q175
+2014,176,Geometria analítica, Reta,E,2014_q176
+2014,177,Estatística, Variabilidade,D,2014_q177
+2014,178,Análise combinatória,D,2014_q178
+2014,179,Geometria espacial, Área de sólidos,D,2014_q179
+2014,180,Interpretação de gráficos,C,2014_q180
+2015,136,Razão e proporção, Regra de três,E,2015_q136
+2015,137,Geometria plana, Área de figuras planas,B,2015_q137
+2015,138,Estatística, Interpretação de gráfico,C,2015_q138
+2015,139,Função afim, Taxa de variação,C,2015_q139
+2015,140,Porcentagem, Acréscimos percentuais,B,2015_q140
+2015,141,Geometria espacial, Volume de prismas,E,2015_q141
+2015,142,Conversão de unidades, Sistema métrico decimal,E,2015_q142
+2015,143,Probabilidade, Espaço amostral,D,2015_q143
+2015,144,Função exponencial, Crescimento,A,2015_q144
+2015,145,Geometria plana, Teorema de Pitágoras,B,2015_q145
+2015,146,Escala, Proporcionalidade,D,2015_q146
+2015,147,Estatística, Gráfico de setores,B,2015_q147
+2015,148,Razão, Densidade,D,2015_q148
+2015,149,Geometria analítica, Distância entre pontos,E,2015_q149
+2015,150,Função afim, Modelagem algébrica,C,2015_q150
+2015,151,Porcentagem, Juros simples,D,2015_q151
+2015,152,Progressão aritmética,A,2015_q152
+2015,153,Geometria espacial, Volume do cilindro,C,2015_q153
+2015,154,Probabilidade, Eventos independentes,C,2015_q154
+2015,155,Função quadrática, Análise de gráfico,E,2015_q155
+2015,156,Estatística, Mediana,D,2015_q156
+2015,157,Trigonometria, Razões trigonométricas,C,2015_q157
+2015,158,Escala, Área, Conversão de unidades,C,2015_q158
+2015,159,Função exponencial, Decaimento,E,2015_q159
+2015,160,Geometria plana, Comprimento de circunferência,C,2015_q160
+2015,161,Porcentagem, Análise financeira,A,2015_q161
+2015,162,Análise combinatória, Princípio multiplicativo,A,2015_q162
+2015,163,Estatística, Gráfico de linhas,E,2015_q163
+2015,164,Razão e proporção, Regra de três composta,A,2015_q164
+2015,165,Geometria espacial, Volume da esfera,D,2015_q165
+2015,166,Função afim, Inequações,C,2015_q166
+2015,167,Probabilidade,B,2015_q167
+2015,168,Progressão geométrica,E,2015_q168
+2015,169,Geometria plana, Semelhança de triângulos,D,2015_q169
+2015,170,Estatística, Média ponderada,A,2015_q170
+2015,171,Função quadrática, Máximo e mínimo,E,2015_q171
+2015,172,Conversão de unidades, Consumo de energia elétrica,A,2015_q172
+2015,173,Proporcionalidade direta,C,2015_q173
+2015,174,Probabilidade, Interpretação de tabela,A,2015_q174
+2015,175,Juros compostos, Função exponencial,B,2015_q175
+2015,176,Geometria analítica, Equação da reta,A,2015_q176
+2015,177,Estatística, Dispersão de dados,D,2015_q177
+2015,178,Análise combinatória, Arranjos simples,D,2015_q178
+2015,179,Geometria espacial, Área total de sólidos,B,2015_q179
+2015,180,Interpretação de gráficos, Análise de variação,B,2015_q180
+2016,136,,C,2016_q136
+2016,137,,E,2016_q137
+2016,138,,E,2016_q138
+2016,139,,C,2016_q139
+2016,140,,D,2016_q140
+2016,141,,B,2016_q141
+2016,142,Geometria Espacial, Volume de sólidos (cilindro e cone), Divisão inteira,D,2016_q142
+2016,143,Escalas, Proporcionalidade, Porcentagem,A,2016_q143
+2016,144,Conversão de unidades, Medidas de comprimento,D,2016_q144
+2016,145,Geometria Espacial, Projeções ortogonais,E,2016_q145
+2016,146,Razão, Estatística descritiva (comparação de desempenho),B,2016_q146
+2016,147,Logaritmos, Escala Richter,C,2016_q147
+2016,148,Regra de três, Porcentagem, Conversão de unidades,C,2016_q148
+2016,149,Geometria Espacial, Interseção de planos com pirâmides,E,2016_q149
+2016,150,Função Afim, Gráficos de funções, Vazão,B,2016_q150
+2016,151,Porcentagem, Estatística (índice de infestação),A,2016_q151
+2016,152,Geometria Plana, Relações métricas em polígonos, Comparação de medidas,B,2016_q152
+2016,153,Funções periódicas, Gráficos, Contagem de interseções,E,2016_q153
+2016,154,Geometria Analítica, Área sob parábola, Proporcionalidade,C,2016_q154
+2016,155,Análise Combinatória, Permutação, Arranjos,E,2016_q155
+2016,156,Estatística, Índice de Gini, Áreas de gráficos,A,2016_q156
+2016,157,Geometria Espacial, Distâncias em grade cartesiana,C,2016_q157
+2016,158,Equações algébricas, Área de figuras planas,B,2016_q158
+2016,159,Média aritmética, Estatística descritiva,D,2016_q159
+2016,160,Razão e Proporção, Densidade,A,2016_q160
+2016,161,Regra de três, Consumo de combustível,B,2016_q161
+2016,162,Progressões aritméticas, Mínimo múltiplo comum,D,2016_q162
+2016,163,Geometria Analítica, Comprimento de segmentos, Circunferência,B,2016_q163
+2016,164,Estatística, Moda,D,2016_q164
+2016,165,Porcentagem, Variação relativa,D,2016_q165
+2016,166,Função Afim, Gráficos lineares,A,2016_q166
+2016,167,Média aritmética, Proporcionalidade,B,2016_q167
+2016,168,Função Exponencial, Logaritmos,D,2016_q168
+2016,169,Geometria Espacial, Volume de paralelepípedo,D,2016_q169
+2016,170,Porcentagem, Proporcionalidade,E,2016_q170
+2016,171,Lucro, Porcentagem, Regra de três,C,2016_q171
+2016,172,Análise Combinatória, Probabilidade,A,2016_q172
+2016,173,Sistema de numeração decimal, Valor posicional,D,2016_q173
+2016,174,Função Afim, Vazão, Gráficos lineares,C,2016_q174
+2016,175,,C,2016_q175
+2016,176,,E,2016_q176
+2016,177,,A,2016_q177
+2016,178,,C,2016_q178
+2016,179,,B,2016_q179
+2016,180,,A,2016_q180
+2017,136,Análise Combinatória (Princípio Fundamental da Contagem),E,2017_q136
+2017,137,Progressão Aritmética / Análise Combinatória,E,2017_q137
+2017,138,Probabilidade (Probabilidade Condicional/Total),C,2017_q138
+2017,139,Funções (Grandezas Proporcionais e Vazão),A,2017_q139
+2017,140,Interpretação de Gráficos (Cinemática/Estatística),C,2017_q140
+2017,141,Geometria Plana (Área de Retângulo e Círculo),D,2017_q141
+2017,142,Razão e Proporção / Operações com Números Racionais,E,2017_q142
+2017,143,Geometria Espacial (Volume de Paralelepípedo/Cubo),C,2017_q143
+2017,144,Geometria Plana (Transformações Geométricas - Rotação),B,2017_q144
+2017,145,Estatística (Média Aritmética Ponderada),D,2017_q145
+2017,146,Análise Combinatória (Combinação com Repetição),B,2017_q146
+2017,147,Geometria Espacial (Volume) / Grandezas Proporcionais,B,2017_q147
+2017,148,Estatística (Margem de Erro e Medidas de Dispersão),E,2017_q148
+2017,149,Grandezas Proporcionais / Equações do 1º Grau (Tempo e Velocidade),B,2017_q149
+2017,150,Porcentagem / Interpretação de Gráficos,A,2017_q150
+2017,151,Geometria Espacial (Prismas),E,2017_q151
+2017,152,Probabilidade,A,2017_q152
+2017,153,Matemática Financeira (Juros Compostos / Valor Presente),E,2017_q153
+2017,154,Logaritmos / Equações Exponenciais,D,2017_q154
+2017,155,Trigonometria (Círculo Trigonométrico) / Porcentagem,B,2017_q155
+2017,156,Funções (Hipérbole / Estudo de Gráficos),E,2017_q156
+2017,157,Operações Básicas / Raciocínio Lógico (Otimização de Custos),C,2017_q157
+2017,158,Razão e Proporção,B,2017_q158
+2017,159,Interpretação de Gráficos (Análise de Funções),D,2017_q159
+2017,160,Geometria Plana (Teorema de Pitágoras / Altura de Triângulo),D,2017_q160
+2017,161,Geometria de Posição (Orientação e Localização),A,2017_q161
+2017,162,Estatística (Média Aritmética),B,2017_q162
+2017,163,Grandezas Inversamente Proporcionais (Engrenagens),D,2017_q163
+2017,164,Análise Combinatória (Princípio Multiplicativo / Coloração),B,2017_q164
+2017,165,Funções do 2º Grau (Otimização de Área),D,2017_q165
+2017,166,Operações com Números Reais / Leitura de Escalas,E,2017_q166
+2017,167,Geometria Plana (Circunferência) / Grandezas Proporcionais,A,2017_q167
+2017,168,Interpretação de Gráficos,B,2017_q168
+2017,169,Trigonometria (Lei dos Cossenos),D,2017_q169
+2017,170,Comparação de Números Decimais,C,2017_q170
+2017,171,Razão e Proporção (Escala Volumétrica),C,2017_q171
+2017,172,Funções do 2º Grau (Parábola),D,2017_q172
+2017,173,,A,2017_q173
+2017,174,,E,2017_q174
+2017,175,,A,2017_q175
+2017,176,,C,2017_q176
+2017,177,,B,2017_q177
+2017,178,,B,2017_q178
+2017,179,,A,2017_q179
+2017,180,,C,2017_q180
+2018,136,Geometria Analítica, Circunferência, Distâncias,A,2018_q136
+2018,137,Geometria Espacial, Volume, Organização de sólidos,D,2018_q137
+2018,138,Progressão aritmética, Contagem, Regra de três,C,2018_q138
+2018,139,Matrizes, Soma de elementos, Estatística descritiva,A,2018_q139
+2018,140,Juros compostos, Logaritmos, Valor presente,C,2018_q140
+2018,141,Geometria Analítica, Equações de reta e circunferência,E,2018_q141
+2018,142,Porcentagem, Estatística, Proporção,D,2018_q142
+2018,143,Análise combinatória, Porcentagem, Equações,D,2018_q143
+2018,144,Geometria Plana, Quadrados e triângulos, Relações métricas,A,2018_q144
+2018,145,Geometria Espacial, Hélice, Trigonometria,B,2018_q145
+2018,146,Probabilidade, Combinações, Urnas,E,2018_q146
+2018,147,Proporcionalidade, Áreas, Escalas,B,2018_q147
+2018,148,Geometria Analítica, Inequações, Conjunto de pontos,B,2018_q148
+2018,149,Função Exponencial, Logaritmos, Lei de Moore,C,2018_q149
+2018,150,Equações algébricas, Regra de três, Financiamento,B,2018_q150
+2018,151,Probabilidade, Estatística, Multiplicação de valores,C,2018_q151
+2018,152,Geometria Espacial, Cubo, Completar sólidos,A,2018_q152
+2018,153,Geometria Plana, Áreas de círculos, Tangência,D,2018_q153
+2018,154,Probabilidade, Combinatória, Tabuleiro,D,2018_q154
+2018,155,Função Afim, Porcentagem, Inclinação de rampa,A,2018_q155
+2018,156,Sequências, Progressões, Contagem de andares,C,2018_q156
+2018,157,Análise Combinatória, Arranjos, Escolha de elementos,C,2018_q157
+2018,158,Média ponderada, Porcentagem, Equações,C,2018_q158
+2018,159,Probabilidade, Estatística, Proporção,D,2018_q159
+2018,160,Função inversa quadrática, Gravitação, Proporcionalidade,E,2018_q160
+2018,161,Mistura de substâncias, Regra de três, Proporção,B,2018_q161
+2018,162,Tempo médio, Regra de três, Comparação de filas,B,2018_q162
+2018,163,Média aritmética, Estatística descritiva,D,2018_q163
+2018,164,Geometria Plana, Funções, Gráficos,A,2018_q164
+2018,165,Geometria Plana, Ângulos, Circunferência,E,2018_q165
+2018,166,Estatística, Método de Borda, Contagem,E,2018_q166
+2018,167,Questão incompleta no arquivo enviado,D,2018_q167
+2018,168,Função Exponencial, Logaritmos,B,2018_q168
+2018,169,Geometria Espacial, Volume de sólidos,E,2018_q169
+2018,170,Porcentagem, Proporção, Leis trabalhistas,ANULADO,2018_q170
+2018,171,Lucro, Porcentagem, Regra de três,B,2018_q171
+2018,172,Análise Combinatória, Probabilidade,C,2018_q172
+2018,173,Sistema de numeração decimal, Valor posicional,A,2018_q173
+2018,174,Função Afim, Vazão, Gráficos lineares,E,2018_q174
+2018,175,Estatística, Média, Desvio padrão,D,2018_q175
+2018,176,Proporcionalidade, Medidas geométricas,A,2018_q176
+2018,177,Interpretação de gráficos, Condições lógicas,B,2018_q177
+2018,178,Função Afim, Coeficiente angular, Gráficos,A,2018_q178
+2018,179,Função Inversa, Proporcionalidade, Modelagem matemática,D,2018_q179
+2018,180,Porcentagem, Estatística, Crescimento infantil,A,2018_q180
+2019,136,Notação Científica,D,2019_q136
+2019,137,Grandezas Proporcionais (Funções),B,2019_q137
+2019,138,Probabilidade,E,2019_q138
+2019,139,Porcentagem e Operações com Reais,B,2019_q139
+2019,140,Geometria Espacial (Vistas e Projeções),A,2019_q140
+2019,141,Matemática Financeira (Juros Compostos/Logaritmo),C,2019_q141
+2019,142,Escala (Razão e Proporção),A,2019_q142
+2019,143,Geometria Plana (Área de Polígonos),B,2019_q143
+2019,144,Estatística (Mediana),C,2019_q144
+2019,145,Análise Combinatória (Arranjo/Permutação),D,2019_q145
+2019,146,Geometria Espacial (Volume de Cilindro),B,2019_q146
+2019,147,Geometria Espacial (Vistas e Projeções),A,2019_q147
+2019,148,Porcentagem e Raciocínio Lógico,B,2019_q148
+2019,149,Razão e Proporção (Velocidade Média),E,2019_q149
+2019,150,Função Afim (Gráficos),C,2019_q150
+2019,151,Geometria Espacial (Tronco de Pirâmide/Volume),E,2019_q151
+2019,152,Estatística (Média Aritmética),E,2019_q152
+2019,153,Porcentagem / Aumento e Desconto,E,2019_q153
+2019,154,Razão e Proporção,D,2019_q154
+2019,155,Geometria Plana (Círculos e Arcos),C,2019_q155
+2019,156,Logaritmos (Escala Richter/Magnitude),B,2019_q156
+2019,157,Análise Combinatória (Combinação),D,2019_q157
+2019,158,Trigonometria (Triângulo Retângulo),C,2019_q158
+2019,159,Estatística (Moda e Mediana),C,2019_q159
+2019,160,Geometria Espacial (Planificação de Sólidos),E,2019_q160
+2019,161,Funções (Análise Gráfica / Pontos de Máximo),D,2019_q161
+2019,162,Geometria Plana (Áreas e Proporções),C,2019_q162
+2019,163,Análise Combinatória (Permutação com Repetição),D,2019_q163
+2019,164,Porcentagem e Razão,A,2019_q164
+2019,165,Geometria Espacial (Volume de Prismas),B,2019_q165
+2019,166,Matemática Financeira (Sistemas de Amortização),E,2019_q166
+2019,167,Progressão Aritmética (PA),D,2019_q167
+2019,168,Equação do 1º Grau / Problemas Lógicos,A,2019_q168
+2019,169,Razão e Proporção (Densidade Demográfica),A,2019_q169
+2019,170,Probabilidade Espacial / Geometria,D,2019_q170
+2019,171,Estatística (Média, Moda e Mediana),D,2019_q171
+2019,172,Geometria Analítica (Distância entre Pontos),D,2019_q172
+2019,173,Funções (Modelagem Matemática),E,2019_q173
+2019,174,Geometria Plana (Teorema de Pitágoras / Triângulos),C,2019_q174
+2019,175,Probabilidade (Eventos Independentes),A,2019_q175
+2019,176,Função Trigonométrica (Período e Amplitude),C,2019_q176
+2019,177,Razão e Proporção (Escala),A,2019_q177
+2019,178,Estatística (Média Ponderada),E,2019_q178
+2019,179,Interpretação de Gráficos e Tabelas,C,2019_q179
+2019,180,Estatística (Média e Projeção),B,2019_q180
+2020,136,Porcentagem / Interpretação de Gráficos,C,2020_q136
+2020,137,Operações Básicas / Raciocínio Lógico,A,2020_q137
+2020,138,Logaritmo / Função Exponencial (Meia-vida),B,2020_q138
+2020,139,Escala (Razão e Proporção),C,2020_q139
+2020,140,Geometria Espacial (Vistas e Projeções),A,2020_q140
+2020,141,Estatística (Média Aritmética),A,2020_q141
+2020,142,Razão e Proporção,C,2020_q142
+2020,143,Geometria Plana (Áreas e Perímetros),C,2020_q143
+2020,144,Análise Combinatória (Arranjo/Permutação),A,2020_q144
+2020,145,Porcentagem / Operações com Reais,C,2020_q145
+2020,146,Estatística (Mediana),D,2020_q146
+2020,147,Geometria Espacial (Volume de Prismas),A,2020_q147
+2020,148,Equação do 1º Grau / Problemas Lógicos,B,2020_q148
+2020,149,Funções (Análise de Gráficos),E,2020_q149
+2020,150,Geometria Espacial (Projeção Ortogonal),E,2020_q150
+2020,151,Funções (Comportamento de Função),E,2020_q151
+2020,152,Geometria Plana (Circunferência e Arcos),B,2020_q152
+2020,153,Porcentagem / Razão e Proporção,A,2020_q153
+2020,154,Estatística (Moda, Média e Mediana),E,2020_q154
+2020,155,Geometria Espacial (Sólidos de Revolução),C,2020_q155
+2020,156,Análise Combinatória (Combinação),ANULADO,2020_q156
+2020,157,Geometria Plana (Congruência e Semelhança),C,2020_q157
+2020,158,Trigonometria (Triângulo Retângulo),C,2020_q158
+2020,159,Logaritmos (Escala de Magnitude),C,2020_q159
+2020,160,Probabilidade,E,2020_q160
+2020,161,Progressão Aritmética (PA),E,2020_q161
+2020,162,Geometria Espacial (Planificação e Cubo),D,2020_q162
+2020,163,Matemática Financeira (Juros Compostos),B,2020_q163
+2020,164,Funções Trigonométricas (Seno/Cosseno),A,2020_q164
+2020,165,Estatística (Desvio Padrão),C,2020_q165
+2020,166,Geometria Plana (Teorema de Pitágoras),C,2020_q166
+2020,167,Análise Combinatória (Princípio Multiplicativo),D,2020_q167
+2020,168,Geometria Espacial (Volume de Cilindro),B,2020_q168
+2020,169,Função Quadrática (Vértice da Parábola),C,2020_q169
+2020,170,Razão e Proporção (Velocidade e Tempo),C,2020_q170
+2020,171,Matrizes (Operações e Interpretação),A,2020_q171
+2020,172,Probabilidade (Eventos Independentes),B,2020_q172
+2020,173,Geometria Plana (Área de Polígonos),B,2020_q173
+2020,174,Razão e Proporção / Divisibilidade,C,2020_q174
+2020,175,Geometria Analítica (Circunferência),C,2020_q175
+2020,176,Função Afim (Interpretação de Gráficos),B,2020_q176
+2020,177,Geometria Espacial (Volume e Vazão),D,2020_q177
+2020,178,Estatística (Média Aritmética),D,2020_q178
+2020,179,Interpretação de Gráficos (Vazão e Geometria),B,2020_q179
+2020,180,Porcentagem / Sistema de Equações,B,2020_q180
+2021,136,Função quadrática, Máximo de arrecadação, Gráficos,E,2021_q136
+2021,137,Criptografia, Estatística (frequência de letras), Análise combinatória,C,2021_q137
+2021,138,Estatística, Mediana,C,2021_q138
+2021,139,Regra de três, Porcentagem, Proporção,C,2021_q139
+2021,140,Funções trigonométricas, Movimento harmônico simples,A,2021_q140
+2021,141,Análise dimensional, Unidades de medida,B,2021_q141
+2021,142,Sistemas lineares, Proporção, Regra de três,B,2021_q142
+2021,143,Regra de três, Consumo de combustível, Proporção,D,2021_q143
+2021,144,Geometria Espacial, Áreas de superfícies, Escala,B,2021_q144
+2021,145,Geometria Espacial, Volume de cilindro, Regra de três,D,2021_q145
+2021,146,Gráficos, Proporção, Volume,D,2021_q146
+2021,147,Estatística, Média aritmética,D,2021_q147
+2021,148,Estatística, Porcentagem, Média ponderada,C,2021_q148
+2021,149,Estatística, Coeficiente de variação, Dispersão,E,2021_q149
+2021,150,Sistema de numeração romana, Conversão de números,D,2021_q150
+2021,151,Sistema binário, Operações em bases numéricas,D,2021_q151
+2021,152,Geometria Espacial, Área, Conversão de unidades,C,2021_q152
+2021,153,Análise Combinatória, Arranjos,A,2021_q153
+2021,154,Regra de três, Proporção, Custo-benefício,B,2021_q154
+2021,155,Análise Combinatória, Permutação, Arranjos,ANULADO,2021_q155
+2021,156,Sequências, Proporção áurea, Potências,E,2021_q156
+2021,157,Geometria Espacial, Projeções ortogonais, Cubo,E,2021_q157
+2021,158,Estatística, Média aritmética, Comparação,E,2021_q158
+2021,159,Estatística, Média ponderada, Classificação,B,2021_q159
+2021,160,Função Afim, Modelagem matemática,A,2021_q160
+2021,161,Probabilidade, Complemento de eventos,B,2021_q161
+2021,162,Geometria Espacial, Planificação de sólidos, Octaedro,E,2021_q162
+2021,163,Geometria Plana, Triângulo equilátero, Perímetro,D,2021_q163
+2021,164,Geometria Espacial, Volume de tronco de cone,C,2021_q164
+2021,165,Geometria Plana, Ângulos, Circunferência,E,2021_q165
+2021,166,Estatística, Método de Borda, Contagem,D,2021_q166
+2021,167,Questão incompleta no arquivo enviado,C,2021_q167
+2021,168,Função Exponencial, Logaritmos,C,2021_q168
+2021,169,Geometria Espacial, Volume de sólidos,A,2021_q169
+2021,170,Porcentagem, Proporção, Leis trabalhistas,E,2021_q170
+2021,171,Lucro, Porcentagem, Regra de três,B,2021_q171
+2021,172,Análise Combinatória, Probabilidade,A,2021_q172
+2021,173,Sistema de numeração decimal, Valor posicional,D,2021_q173
+2021,174,Função Afim, Vazão, Gráficos lineares,B,2021_q174
+2021,175,Estatística, Média, Desvio padrão,C,2021_q175
+2021,176,Proporcionalidade, Medidas geométricas,C,2021_q176
+2021,177,Interpretação de gráficos, Condições lógicas,E,2021_q177
+2021,178,Função Afim, Coeficiente angular, Gráficos,C,2021_q178
+2021,179,Função Inversa, Proporcionalidade, Modelagem matemática,D,2021_q179
+2021,180,Porcentagem, Estatística, Crescimento infantil,A,2021_q180
+2022,136,Estatística (Média Aritmética),B,2022_q136
+2022,137,Geometria Espacial (Projeção Ortogonal),E,2022_q137
+2022,138,Porcentagem e Operações com Racionais,E,2022_q138
+2022,139,Geometria Espacial (Cilindros e Volume),D,2022_q139
+2022,140,Geometria Plana (Áreas de Círculos),A,2022_q140
+2022,141,Razão e Proporção (Escalas),E,2022_q141
+2022,142,Estatística (Média e Mediana),A,2022_q142
+2022,143,Análise Combinatória (Princípio Multiplicativo),B,2022_q143
+2022,144,Razão e Proporção (Gráficos),D,2022_q144
+2022,145,Porcentagem e Matemática Financeira,D,2022_q145
+2022,146,Geometria Espacial (Vistas e Planificação),C,2022_q146
+2022,147,Função Afim (Interpretação de Gráficos),E,2022_q147
+2022,148,Logaritmos (Escala de pH),B,2022_q148
+2022,149,Razão e Proporção,D,2022_q149
+2022,150,Análise Combinatória (Permutação),B,2022_q150
+2022,151,Geometria Plana (Teorema de Pitágoras),A,2022_q151
+2022,152,Estatística (Moda e Mediana),A,2022_q152
+2022,153,Porcentagem e Comparação de Valores,A,2022_q153
+2022,154,Geometria Espacial (Volumes e Vazão),A,2022_q154
+2022,155,Probabilidade,A,2022_q155
+2022,156,Geometria Plana (Semelhança de Triângulos),C,2022_q156
+2022,157,Razão e Proporção (Grandezas Inversas),ANULADO,2022_q157
+2022,158,Funções (Análise de Máximos e Mínimos),C,2022_q158
+2022,159,Geometria Analítica (Distância entre Pontos),B,2022_q159
+2022,160,Estatística (Desvio Padrão),C,2022_q160
+2022,161,Progressão Geométrica (PG),C,2022_q161
+2022,162,Geometria Espacial (Prismas e Áreas),C,2022_q162
+2022,163,Função Quadrática (Parábola),B,2022_q163
+2022,164,Porcentagem e Raciocínio Lógico,C,2022_q164
+2022,165,Probabilidade (Eventos Sucessivos),C,2022_q165
+2022,166,Geometria Plana (Ângulos e Triângulos),D,2022_q166
+2022,167,Matemática Financeira (Juros Simples),B,2022_q167
+2022,168,Análise Combinatória (Combinação),D,2022_q168
+2022,169,Geometria Espacial (Esfera e Volume),E,2022_q169
+2022,170,Funções Trigonométricas (Período),E,2022_q170
+2022,171,Estatística (Média Ponderada),C,2022_q171
+2022,172,Razão e Proporção (Escalas de Mapas),B,2022_q172
+2022,173,Geometria Plana (Círculos e Tangência),D,2022_q173
+2022,174,Matrizes (Interpretação),C,2022_q174
+2022,175,Probabilidade Condicional,A,2022_q175
+2022,176,Logaritmos e Exponenciais,B,2022_q176
+2022,177,Geometria Plana (Área de Polígonos),E,2022_q177
+2022,178,Funções (Domínio e Imagem),E,2022_q178
+2022,179,Interpretação de Gráficos e Tabelas,C,2022_q179
+2022,180,Progressão Aritmética (PA),D,2022_q180
+2023,136,Regra de três, Tempo médio, Comparação de filas,E,2023_q136
+2023,137,Geometria Plana, Círculo, Segmento circular,B,2023_q137
+2023,138,Geometria Plana, Área de quadrado, Área de calçada,D,2023_q138
+2023,139,Gráficos, Interpretação de funções, Intervalos,A,2023_q139
+2023,140,Juros compostos, Porcentagem, Equações,D,2023_q140
+2023,141,Função Afim, Modelagem matemática,D,2023_q141
+2023,142,Gráficos, Interpretação de trajetórias,A,2023_q142
+2023,143,Sistema de coordenadas, Contagem de posições,E,2023_q143
+2023,144,Sistemas lineares, Equações, Proporção,B,2023_q144
+2023,145,Sequências numéricas, Números figurados,E,2023_q145
+2023,146,Funções trigonométricas, Movimento circular,A,2023_q146
+2023,147,Geometria Espacial, Volume de cilindro, Vazão,C,2023_q147
+2023,148,Geometria Plana, Ângulos, Simetria,B,2023_q148
+2023,149,Progressão aritmética, Combinatória, Soma em triângulo mágico,E,2023_q149
+2023,150,Regra de três, Proporção, Consumo de carboidratos,D,2023_q150
+2023,151,Trigonometria, Funções seno/cosseno, Comprimento de cabos,C,2023_q151
+2023,152,Escalas, Proporção, Geometria Plana,E,2023_q152
+2023,153,Regra de três, Conversão de unidades, Calendário maia,C,2023_q153
+2023,154,Teorema de Pitágoras, Geometria Plana, Áreas de círculos,C,2023_q154
+2023,155,Análise dimensional, Unidades de medida,B,2023_q155
+2023,156,Probabilidade, Contagem ponderada,E,2023_q156
+2023,157,Geometria Espacial, Volume de cilindro, Regra de três,A,2023_q157
+2023,158,Regra de três, Porcentagem, Proporção,B,2023_q158
+2023,159,Estatística, Média ponderada, Gasto calórico,C,2023_q159
+2023,160,Regra de três, Porcentagem, Proporção,A,2023_q160
+2023,161,Progressão aritmética, Comparação de vendas,D,2023_q161
+2023,162,Estatística, Média, Mediana, Moda,E,2023_q162
+2023,163,Função Afim, Gráficos, Vazão,B,2023_q163
+2023,164,Sistemas de numeração, Representação cultural,C,2023_q164
+2023,165,Estatística, Média aritmética, Precipitação,C,2023_q165
+2023,166,Geometria Espacial, Volume de tronco de cone e cilindro,B,2023_q166
+2023,167,Média aritmética, Estatística,C,2023_q167
+2023,168,,C,2023_q168
+2023,169,,Anulado,2023_q169
+2023,170,,E,2023_q170
+2023,171,,B,2023_q171
+2023,172,,D,2023_q172
+2023,173,,D,2023_q173
+2023,174,,A,2023_q174
+2023,175,,A,2023_q175
+2023,176,,B,2023_q176
+2023,177,,B,2023_q177
+2023,178,,A,2023_q178
+2023,179,,D,2023_q179
+2023,180,,D,2023_q180
+2024,136,Geometria Espacial (Volume de Cilindro),D,2024_q136
+2024,137,Função Afim (Interpretação de Gráfico e Tendência),B,2024_q137
+2024,138,Razão e Proporção (Velocidade Média),C,2024_q138
+2024,139,Porcentagem / Operações com Números Reais,E,2024_q139
+2024,140,Geometria Plana (Área de Polígonos e Triângulos),C,2024_q140
+2024,141,Estatística (Média Aritmética),E,2024_q141
+2024,142,Análise Combinatória (Princípio Multiplicativo),A,2024_q142
+2024,143,Geometria Espacial (Vistas e Projeções),C,2024_q143
+2024,144,Probabilidade (Eventos Independentes),A,2024_q144
+2024,145,Razão e Proporção (Escala),D,2024_q145
+2024,146,Matemática Financeira (Juros Simples / Porcentagem),A,2024_q146
+2024,147,Geometria Espacial (Volume de Prismas),B,2024_q147
+2024,148,Logaritmos (Escalas Logarítmicas),B,2024_q148
+2024,149,Estatística (Mediana e Moda),E,2024_q149
+2024,150,Geometria Plana (Círculo e Perímetro),C,2024_q150
+2024,151,Funções (Análise Gráfica / Pontos Críticos),B,2024_q151
+2024,152,Razão e Proporção (Grandezas Inversas),E,2024_q152
+2024,153,Análise Combinatória (Combinação),D,2024_q153
+2024,154,Progressão Aritmética (PA),A,2024_q154
+2024,155,Geometria Espacial (Sólidos de Revolução),D,2024_q155
+2024,156,Porcentagem e Comparação de Grandezas,C,2024_q156
+2024,157,Probabilidade Condicional,C,2024_q157
+2024,158,Funções Trigonométricas (Senoide / Amplitude),D,2024_q158
+2024,159,Geometria Plana (Teorema de Pitágoras),C,2024_q159
+2024,160,Estatística (Média Ponderada),C,2024_q160
+2024,161,Funções Trigonométricas (Análise de Gráficos),A,2024_q161
+2024,162,Geometria Analítica (Circunferência e Reta),B,2024_q162
+2024,163,Grandezas Proporcionais (Vazão e Tempo),B,2024_q163
+2024,164,Geometria Espacial (Tronco de Cone/Pirâmide),B,2024_q164
+2024,165,Porcentagem (Aumentos Sucessivos),C,2024_q165
+2024,166,Análise Combinatória (Permutação com Repetição),E,2024_q166
+2024,167,Função Quadrática (Máximos e Mínimos),C,2024_q167
+2024,168,Geometria Plana (Semelhança de Triângulos),E,2024_q168
+2024,169,Estatística (Variância e Desvio Padrão),B,2024_q169
+2024,170,Progressão Geométrica (PG),C,2024_q170
+2024,171,Razão e Proporção (Escala Volumétrica),E,2024_q171
+2024,172,Geometria Espacial (Planificação),A,2024_q172
+2024,173,Logaritmos e Exponenciais (Modelagem),D,2024_q173
+2024,174,Matrizes (Operações e Transposição),A,2024_q174
+2024,175,Trigonometria (Lei dos Senos/Cossenos),B,2024_q175
+2024,176,Geometria Plana (Áreas e Proporções),B,2024_q176
+2024,177,Probabilidade (Eventos Complementares),A,2024_q177
+2024,178,Funções (Interpretação de Funções Compostas),D,2024_q178
+2024,179,Interpretação de Tabelas e Lógica,D,2024_q179
+2024,180,Geometria Analítica (Distância entre Pontos),D,2024_q180
+2025,136,Razão e Proporção (Escala),A,2025_q136
+2025,137,Estatística (Média Aritmética e Projeção),D,2025_q137
+2025,138,Geometria Espacial (Vistas e Projeção Ortogonal),D,2025_q138
+2025,139,Porcentagem e Operações com Reais,B,2025_q139
+2025,140,Funções (Análise Gráfica de Crescimento),B,2025_q140
+2025,141,Geometria Plana (Área de Triângulos e Quadriláteros),C,2025_q141
+2025,142,Análise Combinatória (Permutação),E,2025_q142
+2025,143,Estatística (Mediana),C,2025_q143
+2025,144,Razão e Proporção (Grandezas Inversamente Proporcionais),E,2025_q144
+2025,145,Porcentagem (Aumentos e Descontos Sucessivos),C,2025_q145
+2025,146,Geometria Espacial (Volume de Paralelepípedo),C,2025_q146
+2025,147,Função Afim (Modelagem Matemática),B,2025_q147
+2025,148,Probabilidade (Eventos Independentes),D,2025_q148
+2025,149,Trigonometria (Triângulo Retângulo),D,2025_q149
+2025,150,Geometria Plana (Círculos e Setores Circulares),D,2025_q150
+2025,151,Matemática Financeira (Análise de Investimentos),E,2025_q151
+2025,152,Estatística (Média Ponderada),C,2025_q152
+2025,153,Logaritmos (Aplicações em Escalas),A,2025_q153
+2025,154,Geometria Analítica (Equação da Reta),C,2025_q154
+2025,155,Geometria Espacial (Volume de Cilindros e Cones),E,2025_q155
+2025,156,Análise Combinatória (Combinação),A,2025_q156
+2025,157,Porcentagem e Raciocínio Lógico,B,2025_q157
+2025,158,Funções Trigonométricas (Seno/Cosseno e Período),D,2025_q158
+2025,159,Razão e Proporção (Escala Linear vs Volumétrica),E,2025_q159
+2025,160,Geometria Plana (Semelhança e Teorema de Tales),B,2025_q160
+2025,161,Estatística (Variância e Desvio Padrão),E,2025_q161
+2025,162,Geometria Analítica (Distância entre Ponto e Reta),C,2025_q162
+2025,163,Função Quadrática (Ponto de Máximo/Vértice),C,2025_q163
+2025,164,Geometria Espacial (Planificação de Sólidos),D,2025_q164
+2025,165,Probabilidade Condicional,B,2025_q165
+2025,166,Matemática Financeira (Sistemas de Amortização),A,2025_q166
+2025,167,Progressão Aritmética (PA),B,2025_q167
+2025,168,Equação do 1º Grau / Sistemas Lineares,E,2025_q168
+2025,169,Geometria Plana (Propriedades de Polígonos Regulares),A,2025_q169
+2025,170,Porcentagem e Interpretação de Tabelas,A,2025_q170
+2025,171,Razão e Proporção (Densidade e Misturas),A,2025_q171
+2025,172,Geometria Espacial (Esferas e Volume),Anulado,2025_q172
+2025,173,Funções (Gráficos de Funções Exponenciais),C,2025_q173
+2025,174,Estatística (Moda e Comparação de Dados),C,2025_q174
+2025,175,Matrizes (Interpretação e Representação de Dados),B,2025_q175
+2025,176,Trigonometria (Lei dos Cossenos),E,2025_q176
+2025,177,Geometria Analítica (Equação da Circunferência),A,2025_q177
+2025,178,Probabilidade (Eventos Complementares),D,2025_q178
+2025,179,Razão e Proporção (Consumo e Combustíveis),D,2025_q179
+2025,180,Operações Básicas / Otimização (Aritmética),E,2025_q180
