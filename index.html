@@ -24,30 +24,81 @@
 <body>
 
 <h1>Questões de Matemática – ENEM 2009 a 2025</h1>
+<h3>Filtrar por conteúdos</h3>
+<div id="filtros"></div>
+<hr>
 <div id="container"></div>
 
 <script>
+let questoes = [];
+
 fetch("questoes.csv")
   .then(r => r.text())
   .then(csv => {
-    const linhas = csv.split("\n").slice(1);
+    const linhas = csv.trim().split("\n").slice(1);
     const container = document.getElementById("container");
+    const filtrosDiv = document.getElementById("filtros");
+    const conteudosSet = new Set();
 
     linhas.forEach(linha => {
-      if (!linha.trim()) return;
       const [ano, num, conteudos, gabarito] = linha.split(";");
-      const div = document.createElement("div");
-      div.className = "questao";
+      if (!ano || !num) return;
 
-      div.innerHTML = `
-        <h3>${ano} – Questão ${num}</h3>
-        <img src="imagens/${ano}_q${num}.png">
-        <p><strong>Conteúdos:</strong> ${conteudos}</p>
-        <p><strong>Gabarito:</strong> ${gabarito}</p>
-      `;
-
-      container.appendChild(div);
+      questoes.push({ ano, num, conteudos, gabarito });
+      conteudosSet.add(conteudos);
     });
+
+    // Criação dos checkboxes
+    [...conteudosSet].sort().forEach(c => {
+      const label = document.createElement("label");
+      label.style.marginRight = "15px";
+
+      const checkbox = document.createElement("input");
+      checkbox.type = "checkbox";
+      checkbox.value = c;
+
+      checkbox.addEventListener("change", aplicarFiltro);
+
+      label.appendChild(checkbox);
+      label.appendChild(document.createTextNode(" " + c));
+      filtrosDiv.appendChild(label);
+    });
+
+    renderizar(questoes);
+
+    function aplicarFiltro() {
+      const selecionados = [...document.querySelectorAll("#filtros input:checked")]
+        .map(cb => cb.value);
+
+      if (selecionados.length === 0) {
+        renderizar(questoes);
+        return;
+      }
+
+      const filtradas = questoes.filter(q =>
+        selecionados.includes(q.conteudos)
+      );
+
+      renderizar(filtradas);
+    }
+
+    function renderizar(lista) {
+      container.innerHTML = "";
+
+      lista.forEach(q => {
+        const div = document.createElement("div");
+        div.className = "questao";
+
+        div.innerHTML = `
+          <h3>${q.ano} – Questão ${q.num}</h3>
+           <p><strong>Conteúdos:</strong> ${q.conteudos}</p>
+           <img src="imagens/${q.ano}_${q.num}.png">
+           <p><strong>Gabarito:</strong> ${q.gabarito}</p>
+        `;
+
+        container.appendChild(div);
+      });
+    }
   });
 </script>
 
