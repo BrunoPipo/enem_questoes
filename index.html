@@ -76,7 +76,7 @@ fetch("questoes.csv")
       }
 
       const filtradas = questoes.filter(q =>
-        selecionados.includes(q.conteudos)
+        selecionados.some(s => q.conteudos.includes(s))
       );
 
       renderizar(filtradas);
@@ -91,8 +91,9 @@ fetch("questoes.csv")
 
         div.innerHTML = `
           <h3>${q.ano} – Questão ${q.num}</h3>
-           <img src="imagens/${q.ano}_${q.num}.png">
-           <p><strong>Conteúdos:</strong> ${q.conteudos}</p><p><strong>Gabarito:</strong> ${q.gabarito}</p>
+          <img src="imagens/${q.ano}_${q.num}.png">
+          <p><strong>Conteúdos:</strong> ${q.conteudos}</p>
+          <p><strong>Gabarito:</strong> ${q.gabarito}</p>
         `;
 
         container.appendChild(div);
