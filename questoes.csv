@@ -1,4 +1,4 @@
-ano;num;conteudos;gabarito
+ano_questao;num_questao;conteudos_questao;gabarito_questao
 2009;136;Razão e proporção;E
 2009;137;Volume de tronco de cone;C
 2009;138;Razão e proporção;D
@@ -764,3 +764,4 @@ ano;num;conteudos;gabarito
 2025;178;Probabilidade (Eventos Complementares);D
 2025;179;Razão e Proporção (Consumo e Combustíveis);D
 2025;180;Operações Básicas / Otimização (Aritmética);E
+
