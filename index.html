@@ -91,9 +91,8 @@ fetch("questoes.csv")
 
         div.innerHTML = `
           <h3>${q.ano} – Questão ${q.num}</h3>
-           <p><strong>Conteúdos:</strong> ${q.conteudos}</p>
            <img src="imagens/${q.ano}_${q.num}.png">
-           <p><strong>Gabarito:</strong> ${q.gabarito}</p>
+           <p><strong>Conteúdos:</strong> ${q.conteudos}</p><p><strong>Gabarito:</strong> ${q.gabarito}</p>
         `;
 
         container.appendChild(div);
