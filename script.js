@@ -1,31 +1,67 @@
-fetch("dados/questoes.csv")
-  .then(response => response.text())
-  .then(texto => {
-    const linhas = texto.trim().split("\n");
-    linhas.shift(); // remove cabeçalho
+let questoes = [];
 
-    const container = document.getElementById("questoes");
-
-    linhas.forEach(linha => {
-      const colunas = linha.split(",");
-
-      const ano = colunas[0];
-      const numero = colunas[1];
-      const conteudos = colunas[2].replace(/"/g, "").replace(/;/g, ", ");
-      const alternativa = colunas[3];
-      const imagem = colunas[4];
-
-      const bloco = document.createElement("div");
-      bloco.style.marginBottom = "40px";
-
-      bloco.innerHTML = `
-        <h3>${ano} — Questão ${numero}</h3>
-        <p><strong>Conteúdos:</strong> ${conteudos}</p>
-        <p><strong>Gabarito:</strong> ${alternativa}</p>
-        <img src="imagens/${imagem}" style="max-width: 900px;">
-        <hr>
-      `;
-
-      container.appendChild(bloco);
+fetch("dados/questoes.json")
+    .then(response => response.json())
+    .then(data => {
+        questoes = data;
+        carregarAnos();
+        exibirQuestoes(questoes);
     });
-  });
+
+function carregarAnos() {
+    const anos = [...new Set(questoes.map(q => q.ano))].sort();
+    const selectAno = document.getElementById("filtroAno");
+
+    anos.forEach(ano => {
+        const option = document.createElement("option");
+        option.value = ano;
+        option.textContent = ano;
+        selectAno.appendChild(option);
+    });
+}
+
+function aplicarFiltros() {
+    const ano = document.getElementById("filtroAno").value;
+    const conteudo = document.getElementById("filtroConteudo").value.toLowerCase();
+    const alternativa = document.getElementById("filtroAlternativa").value;
+
+    let filtradas = questoes;
+
+    if (ano) {
+        filtradas = filtradas.filter(q => q.ano == ano);
+    }
+
+    if (conteudo) {
+        filtradas = filtradas.filter(q =>
+            q.conteudos.some(c => c.toLowerCase().includes(conteudo))
+        );
+    }
+
+    if (alternativa) {
+        filtradas = filtradas.filter(q => q.alternativa === alternativa);
+    }
+
+    exibirQuestoes(filtradas);
+}
+
+function exibirQuestoes(lista) {
+    const div = document.getElementById("resultado");
+    div.innerHTML = "";
+
+    lista.forEach(q => {
+        const bloco = document.createElement("div");
+        bloco.className = "questao";
+
+        const info = document.createElement("p");
+        info.innerHTML = `<strong>${q.ano} – Questão ${q.numero}</strong><br>
+                          Conteúdos: ${q.conteudos.join(", ")}<br>
+                          Alternativa correta: ${q.alternativa}`;
+
+        const img = document.createElement("img");
+        img.src = "imagens/" + q.imagem;
+
+        bloco.appendChild(info);
+        bloco.appendChild(img);
+        div.appendChild(bloco);
+    });
+}
