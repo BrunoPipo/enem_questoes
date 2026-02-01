@@ -2,17 +2,13 @@
 <html lang="pt-BR">
 <head>
 <meta charset="UTF-8">
-<title>Questões ENEM Matemática</title>
+<title>Questões do ENEM - Matemática</title>
 
 <style>
 body {
-  font-family: Arial, sans-serif;
+  font-family: Helvetica, sans-serif;
   background: #f4f6f8;
   margin: 0;
-}
-
-h1, h3 {
-  text-align: center;
 }
 
 /* ================= TOPO ================= */
@@ -21,26 +17,56 @@ h1, h3 {
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
+  background: #ffffff;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+#autor {
+  font-size: 14px;
+  font-style: italic;
 }
 
 #contador {
-  background: #fff;
-  padding: 8px 14px;
-  border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
   font-weight: bold;
+  background: #f1f1f1;
+  padding: 6px 12px;
+  border-radius: 6px;
+}
+
+/* ================= TITULO ================= */
+h1 {
+  text-align: center;
+  margin-top: 20px;
 }
 
 /* ================= CONTROLES ================= */
+#controles {
+  text-align: center;
+  margin: 10px 0;
+}
+
 #pesquisa, #colunas {
   width: 240px;
   padding: 8px;
   border-radius: 6px;
   border: 1px solid #ccc;
-  display: block;
-  margin: 10px auto;
+  margin: 6px;
 }
 
+#btnInicio {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  background: #424242;
+  color: #fff;
+  cursor: pointer;
+}
+
+#btnInicio:hover {
+  background: #212121;
+}
+
+/* ================= FILTROS ================= */
 .secao-filtros {
   margin: 20px;
 }
@@ -121,7 +147,9 @@ h1, h3 {
 <body>
 
 <div id="topo">
-  <div></div>
+  <div id="autor">
+    Criado pelo Mestre em Matemática e Professor de Matemática: <strong>Bruno Fabiano Chiodini</strong> — 2026
+  </div>
   <div id="contador">
     ✔ Acertos: <span id="acertos">0</span> |
     ✖ Erros: <span id="erros">0</span>
@@ -130,22 +158,26 @@ h1, h3 {
 
 <h1>Questões de Matemática – ENEM</h1>
 
-<input type="text" id="pesquisa" placeholder="Pesquisar: ex 2018 45">
+<div id="controles">
+  <input type="text" id="pesquisa" placeholder="Pesquisar: ex 2018 45">
 
-<select id="colunas">
-  <option value="1">1 coluna</option>
-  <option value="2">2 colunas</option>
-  <option value="3" selected>3 colunas</option>
-  <option value="4">4 colunas</option>
-</select>
+  <select id="colunas">
+    <option value="1">1 coluna</option>
+    <option value="2">2 colunas</option>
+    <option value="3" selected>3 colunas</option>
+    <option value="4">4 colunas</option>
+  </select>
+
+  <button id="btnInicio">INÍCIO</button>
+</div>
 
 <div class="secao-filtros">
-  <h3>Filtrar por conteúdo</h3>
+  <h3 style="text-align:center">Filtrar por conteúdo</h3>
   <div id="filtrosConteudo" class="filtros"></div>
 </div>
 
 <div class="secao-filtros">
-  <h3>Filtrar por ano</h3>
+  <h3 style="text-align:center">Filtrar por ano</h3>
   <div id="filtrosAno" class="filtros"></div>
 </div>
 
@@ -168,15 +200,13 @@ document.getElementById("colunas").addEventListener("change", e => {
 /* ================= CATEGORIA ================= */
 function categoriaPrincipal(texto) {
   texto = texto.toLowerCase();
-
   if (texto.includes("estatística")) return "Estatística";
-  if (texto.includes("função afim") || texto.includes("1º grau")) return "Função Afim";
-  if (texto.includes("quadrática") || texto.includes("2º grau")) return "Função Quadrática";
+  if (texto.includes("função afim")) return "Função Afim";
+  if (texto.includes("quadrática")) return "Função Quadrática";
   if (texto.includes("trigonometr")) return "Trigonometria";
   if (texto.includes("analítica")) return "Geometria Analítica";
   if (texto.includes("espacial")) return "Geometria Espacial";
   if (texto.includes("probabilidade")) return "Probabilidade";
-
   return "Outros";
 }
 
@@ -197,14 +227,7 @@ fetch("questoes.csv")
       if (!ano || !num) return;
 
       const categoria = categoriaPrincipal(conteudos);
-
-      questoes.push({
-        ano,
-        num,
-        categoria,
-        gabarito: gabarito.trim()
-      });
-
+      questoes.push({ ano, num, categoria, gabarito: gabarito.trim() });
       categorias.add(categoria);
       anos.add(ano);
     });
@@ -275,6 +298,8 @@ function renderizar(lista) {
 /* ================= RESPOSTA ================= */
 function responder(id, escolha, correta) {
   const botoes = document.querySelectorAll(`#alt_${id} button`);
+  if ([...botoes].some(b => b.disabled)) return;
+
   botoes.forEach(b => {
     b.disabled = true;
     if (b.textContent === correta) b.classList.add("correta");
@@ -292,6 +317,22 @@ function responder(id, escolha, correta) {
   document.getElementById("acertos").textContent = acertos;
   document.getElementById("erros").textContent = erros;
 }
+
+/* ================= INÍCIO ================= */
+document.getElementById("btnInicio").addEventListener("click", () => {
+  document.querySelectorAll("input[type=checkbox]").forEach(cb => cb.checked = false);
+  document.getElementById("pesquisa").value = "";
+  document.getElementById("colunas").value = "3";
+  document.getElementById("container").style.setProperty("--cols", 3);
+
+  acertos = 0;
+  erros = 0;
+  document.getElementById("acertos").textContent = 0;
+  document.getElementById("erros").textContent = 0;
+
+  termoPesquisa = "";
+  renderizar(questoes);
+});
 </script>
 
 </body>
