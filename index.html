@@ -1,105 +1,106 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <title>Questões ENEM Matemática</title>
-  <link rel="icon" href="favicon.png" type="image/png">
+<meta charset="UTF-8">
+<title>Questões ENEM Matemática</title>
 
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: #f4f6f8;
-      margin: 0;
-    }
+<style>
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+  margin: 0;
+}
 
-    h1, h3 {
-      text-align: center;
-    }
+h1 {
+  text-align: center;
+}
 
-    #pesquisa, #colunas {
-      width: 240px;
-      padding: 8px;
-      border-radius: 6px;
-      border: 1px solid #ccc;
-      display: block;
-      margin: 10px auto;
-    }
+#topo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
 
-    .secao-filtros {
-      margin: 20px;
-    }
+#contador {
+  background: #fff;
+  padding: 8px 14px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  font-weight: bold;
+}
 
-    .filtros {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 12px;
-      justify-content: center;
-    }
+#pesquisa, #colunas {
+  width: 240px;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  display: block;
+  margin: 10px auto;
+}
 
-    .filtro {
-      background: #fff;
-      padding: 8px 12px;
-      border-radius: 8px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-      cursor: pointer;
-    }
+#container {
+  --cols: 3;
+  display: grid;
+  grid-template-columns: repeat(var(--cols), 1fr);
+  gap: 20px;
+  padding: 20px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
 
-    #container {
-      --cols: 3;
-      display: grid;
-      grid-template-columns: repeat(var(--cols), 1fr);
-      gap: 20px;
-      padding: 20px;
-    }
+.questao {
+  background: #fff;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
 
-    .questao {
-      background: #fff;
-      padding: 15px;
-      border-radius: 12px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    }
+.questao img {
+  max-width: 100%;
+  margin: 10px 0;
+  border-radius: 8px;
+}
 
-    .questao img {
-      max-width: 100%;
-      border-radius: 8px;
-      margin: 10px 0;
-    }
+.alternativas {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 8px;
+  margin-top: 10px;
+}
 
-    .alternativas {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px;
-      margin-top: 10px;
-    }
+.alternativas button {
+  height: 42px;
+  font-weight: bold;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  background: #e0e0e0;
+}
 
-    .alternativas button {
-      flex: 1 1 30%;
-      padding: 8px;
-      border-radius: 6px;
-      border: 1px solid #ccc;
-      cursor: pointer;
-      background: #f0f0f0;
-    }
+.alternativas button.correta {
+  background: #2e7d32;
+  color: #fff;
+}
 
-    .alternativas button.correta {
-      background: #2e7d32;
-      color: #fff;
-      border-color: #2e7d32;
-    }
+.alternativas button.errada {
+  background: #c62828;
+  color: #fff;
+}
 
-    .alternativas button.errada {
-      background: #c62828;
-      color: #fff;
-      border-color: #c62828;
-    }
+.alternativas button:disabled {
+  cursor: default;
+}
 
-    .alternativas button:disabled {
-      cursor: default;
-      opacity: 0.9;
-    }
-  </style>
+</style>
 </head>
+
 <body>
+
+<div id="topo">
+  <div></div>
+  <div id="contador">✔ Acertos: <span id="acertos">0</span> | ✖ Erros: <span id="erros">0</span></div>
+</div>
 
 <h1>Questões de Matemática – ENEM</h1>
 
@@ -112,126 +113,55 @@
   <option value="4">4 colunas</option>
 </select>
 
-<div class="secao-filtros">
-  <h3>Filtrar por conteúdo</h3>
-  <div id="filtrosConteudo" class="filtros"></div>
-</div>
-
-<div class="secao-filtros">
-  <h3>Filtrar por ano</h3>
-  <div id="filtrosAno" class="filtros"></div>
-</div>
-
-<hr>
-
 <div id="container"></div>
 
 <script>
 let questoes = [];
 let termoPesquisa = "";
+let acertos = 0;
+let erros = 0;
 
 document.getElementById("colunas").addEventListener("change", e => {
   document.getElementById("container")
     .style.setProperty("--cols", e.target.value);
 });
 
-function categoriaPrincipal(texto) {
-  texto = texto.toLowerCase();
-
-  if (texto.includes("estatística")) return "Estatística";
-  if (texto.includes("função afim")) return "Função Afim";
-  if (texto.includes("quadrática")) return "Função Quadrática";
-  if (texto.includes("trigonometr")) return "Trigonometria";
-  if (texto.includes("analítica")) return "Geometria Analítica";
-  if (texto.includes("espacial")) return "Geometria Espacial";
-  if (texto.includes("probabilidade")) return "Probabilidade";
-
-  return "Outros";
-}
-
 fetch("questoes.csv")
   .then(r => r.text())
   .then(csv => {
     const linhas = csv.trim().split("\n").slice(1);
-    const filtrosConteudo = document.getElementById("filtrosConteudo");
-    const filtrosAno = document.getElementById("filtrosAno");
-    const container = document.getElementById("container");
-
-    const categorias = new Set();
-    const anos = new Set();
 
     linhas.forEach(linha => {
-      const [ano, num, conteudos, gabarito] = linha.split(";");
-      if (!ano || !num) return;
-
-      const categoria = categoriaPrincipal(conteudos);
-      questoes.push({ ano, num, conteudos, gabarito: gabarito.trim(), categoria });
-
-      categorias.add(categoria);
-      anos.add(ano);
-    });
-
-    [...categorias].sort().forEach(c => filtrosConteudo.appendChild(criarCheckbox(c)));
-    [...anos].sort((a,b) => b - a).forEach(a => filtrosAno.appendChild(criarCheckbox(a)));
-
-    document.getElementById("pesquisa").addEventListener("input", e => {
-      termoPesquisa = e.target.value.toLowerCase();
-      aplicarFiltros();
+      const [ano, num, , gabarito] = linha.split(";");
+      questoes.push({ ano, num, gabarito: gabarito.trim() });
     });
 
     renderizar(questoes);
-
-    function criarCheckbox(valor) {
-      const label = document.createElement("label");
-      label.className = "filtro";
-      const cb = document.createElement("input");
-      cb.type = "checkbox";
-      cb.value = valor;
-      cb.addEventListener("change", aplicarFiltros);
-      label.appendChild(cb);
-      label.appendChild(document.createTextNode(" " + valor));
-      return label;
-    }
-
-    function aplicarFiltros() {
-      const cSel = [...document.querySelectorAll("#filtrosConteudo input:checked")].map(x => x.value);
-      const aSel = [...document.querySelectorAll("#filtrosAno input:checked")].map(x => x.value);
-
-      renderizar(
-        questoes.filter(q =>
-          (cSel.length === 0 || cSel.includes(q.categoria)) &&
-          (aSel.length === 0 || aSel.includes(q.ano)) &&
-          (termoPesquisa === "" || (`${q.ano} ${q.num}`).toLowerCase().includes(termoPesquisa))
-        )
-      );
-    }
-
-    function renderizar(lista) {
-      container.innerHTML = "";
-
-      lista.forEach(q => {
-        const div = document.createElement("div");
-        div.className = "questao";
-
-        div.innerHTML = `
-          <h3>${q.ano} – Questão ${q.num}</h3>
-
-          <img src="imagens/${q.ano}_q${q.num}.png"
-               onerror="this.onerror=null;this.src='imagens/${q.ano}_q${q.num}.PNG';">
-
-          <p><strong>Categoria:</strong> ${q.categoria}</p>
-
-          <div class="alternativas" id="alt_${q.ano}_${q.num}">
-            ${["A","B","C","D","E"].map(l =>
-              `<button onclick="responder('${q.ano}_${q.num}','${l}','${q.gabarito}')">${l}</button>`
-            ).join("")}
-          </div>
-        `;
-
-        container.appendChild(div);
-      });
-    }
   });
+
+function renderizar(lista) {
+  const container = document.getElementById("container");
+  container.innerHTML = "";
+
+  lista.forEach(q => {
+    const div = document.createElement("div");
+    div.className = "questao";
+
+    div.innerHTML = `
+      <h3>${q.ano} – Questão ${q.num}</h3>
+
+      <img src="imagens/${q.ano}_q${q.num}.png"
+           onerror="this.onerror=null;this.src='imagens/${q.ano}_q${q.num}.PNG';">
+
+      <div class="alternativas" id="alt_${q.ano}_${q.num}">
+        ${["A","B","C","D","E"].map(l =>
+          `<button onclick="responder('${q.ano}_${q.num}','${l}','${q.gabarito}')">${l}</button>`
+        ).join("")}
+      </div>
+    `;
+    container.appendChild(div);
+  });
+}
 
 function responder(id, escolha, correta) {
   const botoes = document.querySelectorAll(`#alt_${id} button`);
@@ -241,7 +171,15 @@ function responder(id, escolha, correta) {
   });
 
   const clicado = [...botoes].find(b => b.textContent === escolha);
-  if (escolha !== correta) clicado.classList.add("errada");
+  if (escolha === correta) {
+    acertos++;
+  } else {
+    erros++;
+    clicado.classList.add("errada");
+  }
+
+  document.getElementById("acertos").textContent = acertos;
+  document.getElementById("erros").textContent = erros;
 }
 </script>
 
