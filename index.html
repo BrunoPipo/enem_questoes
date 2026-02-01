@@ -4,79 +4,193 @@
   <meta charset="UTF-8">
   <title>Questões ENEM Matemática</title>
   <link rel="icon" href="favicon.png" type="image/png">
+
   <style>
-  body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-  }
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f6f8;
+      margin: 0;
+    }
 
-  .questao {
-    margin-bottom: 40px;
-  }
+    h1, h3 {
+      text-align: center;
+    }
 
-  img {
-    display: block;
-    margin: 20px auto;
-    max-width: 90%;
-  }
+    .secao-filtros {
+      margin: 20px;
+    }
+
+    .filtros {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      justify-content: center;
+    }
+
+    .filtro {
+      background: #fff;
+      padding: 8px 12px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      cursor: pointer;
+    }
+
+    #pesquisa {
+      width: 240px;
+      padding: 8px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      display: block;
+      margin: 0 auto 20px auto;
+    }
+
+    #container {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .questao {
+      background: #fff;
+      padding: 15px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .questao img {
+      max-width: 100%;
+      border-radius: 8px;
+      margin: 10px 0;
+    }
+
+    .gabarito {
+      filter: blur(6px);
+      transition: filter 0.3s ease;
+      user-select: none;
+    }
+
+    .gabarito.mostrar {
+      filter: none;
+    }
+
+    .btn-gabarito {
+      margin-top: 8px;
+      padding: 6px 10px;
+      border: none;
+      border-radius: 6px;
+      background: #1976d2;
+      color: #fff;
+      cursor: pointer;
+    }
+
+    .btn-gabarito:hover {
+      background: #125aa0;
+    }
   </style>
 </head>
 <body>
 
-<h1>Questões de Matemática – ENEM 2009 a 2025</h1>
-<h3>Filtrar por conteúdos</h3>
-<div id="filtros"></div>
+<h1>Questões de Matemática – ENEM</h1>
+
+<input type="text" id="pesquisa" placeholder="Pesquisar: ex 2018 45 ou 2012">
+
+<div class="secao-filtros">
+  <h3>Filtrar por conteúdo</h3>
+  <div id="filtrosConteudo" class="filtros"></div>
+</div>
+
+<div class="secao-filtros">
+  <h3>Filtrar por ano</h3>
+  <div id="filtrosAno" class="filtros"></div>
+</div>
+
 <hr>
+
 <div id="container"></div>
 
 <script>
 let questoes = [];
+let termoPesquisa = "";
 
+// =======================
+// CATEGORIA PRINCIPAL
+// =======================
+function categoriaPrincipal(texto) {
+  texto = texto.toLowerCase();
+
+  if (texto.includes("estatística")) return "Estatística";
+  if (texto.includes("função afim") || texto.includes("1º grau")) return "Função Afim";
+  if (texto.includes("função quadrática") || texto.includes("2º grau")) return "Função Quadrática";
+  if (texto.includes("trigonometr")) return "Trigonometria";
+  if (texto.includes("geometria analítica")) return "Geometria Analítica";
+  if (texto.includes("geometria espacial")) return "Geometria Espacial";
+  if (texto.includes("probabilidade") || texto.includes("combinatória")) return "Probabilidade";
+  if (texto.includes("escala") || texto.includes("proporção")) return "Escala e Proporção";
+  if (texto.includes("exponencial")) return "Função Exponencial";
+  if (texto.includes("logarítmica")) return "Função Logarítmica";
+
+  return "Outros";
+}
+
+// =======================
+// BUSCAR CSV
+// =======================
 fetch("questoes.csv")
   .then(r => r.text())
   .then(csv => {
     const linhas = csv.trim().split("\n").slice(1);
+
+    const filtrosConteudo = document.getElementById("filtrosConteudo");
+    const filtrosAno = document.getElementById("filtrosAno");
     const container = document.getElementById("container");
-    const filtrosDiv = document.getElementById("filtros");
-    const conteudosSet = new Set();
+
+    const categorias = new Set();
+    const anos = new Set();
 
     linhas.forEach(linha => {
       const [ano, num, conteudos, gabarito] = linha.split(";");
       if (!ano || !num) return;
 
-      questoes.push({ ano, num, conteudos, gabarito });
-      conteudosSet.add(conteudos);
+      const categoria = categoriaPrincipal(conteudos);
+
+      questoes.push({ ano, num, conteudos, gabarito, categoria });
+      categorias.add(categoria);
+      anos.add(ano);
     });
 
-    // Criação dos checkboxes
-    [...conteudosSet].sort().forEach(c => {
-      const label = document.createElement("label");
-      label.style.marginRight = "15px";
+    [...categorias].sort().forEach(c => filtrosConteudo.appendChild(criarCheckbox(c)));
+    [...anos].sort((a,b) => b - a).forEach(a => filtrosAno.appendChild(criarCheckbox(a)));
 
-      const checkbox = document.createElement("input");
-      checkbox.type = "checkbox";
-      checkbox.value = c;
-
-      checkbox.addEventListener("change", aplicarFiltro);
-
-      label.appendChild(checkbox);
-      label.appendChild(document.createTextNode(" " + c));
-      filtrosDiv.appendChild(label);
+    document.getElementById("pesquisa").addEventListener("input", e => {
+      termoPesquisa = e.target.value.toLowerCase();
+      aplicarFiltros();
     });
 
     renderizar(questoes);
 
-    function aplicarFiltro() {
-      const selecionados = [...document.querySelectorAll("#filtros input:checked")]
-        .map(cb => cb.value);
+    function criarCheckbox(valor) {
+      const label = document.createElement("label");
+      label.className = "filtro";
 
-      if (selecionados.length === 0) {
-        renderizar(questoes);
-        return;
-      }
+      const cb = document.createElement("input");
+      cb.type = "checkbox";
+      cb.value = valor;
+      cb.addEventListener("change", aplicarFiltros);
+
+      label.appendChild(cb);
+      label.appendChild(document.createTextNode(" " + valor));
+      return label;
+    }
+
+    function aplicarFiltros() {
+      const cSel = [...document.querySelectorAll("#filtrosConteudo input:checked")].map(x => x.value);
+      const aSel = [...document.querySelectorAll("#filtrosAno input:checked")].map(x => x.value);
 
       const filtradas = questoes.filter(q =>
-        selecionados.some(s => q.conteudos.includes(s))
+        (cSel.length === 0 || cSel.includes(q.categoria)) &&
+        (aSel.length === 0 || aSel.includes(q.ano)) &&
+        (termoPesquisa === "" || (`${q.ano} ${q.num}`).toLowerCase().includes(termoPesquisa))
       );
 
       renderizar(filtradas);
@@ -85,21 +199,47 @@ fetch("questoes.csv")
     function renderizar(lista) {
       container.innerHTML = "";
 
+      if (!lista.length) {
+        container.innerHTML = "<p style='text-align:center'>Nada encontrado.</p>";
+        return;
+      }
+
       lista.forEach(q => {
+        const idGab = `gab_${q.ano}_${q.num}`;
+
         const div = document.createElement("div");
         div.className = "questao";
-
         div.innerHTML = `
           <h3>${q.ano} – Questão ${q.num}</h3>
-          <img src="imagens/${q.ano}_q${q.num}.png">
-          <p><strong>Conteúdos:</strong> ${q.conteudos}</p>
-          <p><strong>Gabarito:</strong> ${q.gabarito}</p>
+
+          <img 
+            src="imagens/${q.ano}_q${q.num}.png"
+            onerror="this.onerror=null; this.src='imagens/${q.ano}_q${q.num}.PNG';">
+
+          <p><strong>Categoria:</strong> ${q.categoria}</p>
+
+          <p class="gabarito" id="${idGab}">
+            <strong>Gabarito:</strong> ${q.gabarito}
+          </p>
+
+          <button class="btn-gabarito"
+            onclick="mostrarGabarito('${idGab}', this)">
+            Mostrar gabarito
+          </button>
         `;
 
         container.appendChild(div);
       });
     }
   });
+
+// =======================
+// MOSTRAR GABARITO
+// =======================
+function mostrarGabarito(id, botao) {
+  document.getElementById(id).classList.add("mostrar");
+  botao.style.display = "none";
+}
 </script>
 
 </body>
