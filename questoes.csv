@@ -1,12 +1,12 @@
 ano_questao;num_questao;conteudos_questao;gabarito_questao
 2009;136;Logaritmos;E
 2009;137;Probabilidade;C
-2009;138;Razão e proporção;D
-2009;139;Razão e proporção;A
+2009;138;Razão e Proporção;D
+2009;139;Razão e Proporção;A
 2009;140;Porcentagem;D
-2009;141;Razão e proporção;C
+2009;141;Razão e Proporção;C
 2009;142;Porcentagem;D
-2009;143;Razão e proporção;E
+2009;143;Razão e Proporção;E
 2009;144;Frações;D
 2009;145;Raciocínio Lógico;C
 2009;146;Probabilidade;C
@@ -19,14 +19,14 @@ ano_questao;num_questao;conteudos_questao;gabarito_questao
 2009;153;Geometria Espacial;E
 2009;154;Trigonometria;D
 2009;155;Funções do 2º grau;D
-2009;156;Razão e proporção;D
+2009;156;Razão e Proporção;D
 2009;157;Geometria Espacial;B
 2009;158;Raciocínio Lógico;A
 2009;159;Função do 1º grau;E
 2009;160;Regra de Três;D
 2009;161;Estatística;D
 2009;162;Regra de Três;A
-2009;163;Razão e proporção;B
+2009;163;Razão e Proporção;B
 2009;164;Geometria Plana;E
 2009;165;Análise Combinatória;A
 2009;166;Raciocínio Lógico;B
@@ -44,51 +44,51 @@ ano_questao;num_questao;conteudos_questao;gabarito_questao
 2009;178;Matemática Financeira;E
 2009;179;Porcentagem;B
 2009;180;Geometria Espacial;B
-2010;136;Porcentagem (Representação Visual/Geométrica);C
-2010;137;Geometria Espacial (Planificação de Sólidos - Cilindros);E
-2010;138;Funções (Análise de Gráficos de Crescimento);E
-2010;139;Geometria Plana (Cálculo de Áreas / Razão e Proporção);B
-2010;140;Geometria Espacial (Volume de Prismas);A
-2010;141;Estatística (Média Aritmética);B
-2010;142;Razão e Proporção (Divisão Proporcional);D
-2010;143;Geometria Espacial (Vistas e Perspectivas);D
-2010;144;Probabilidade (Espaço Amostral);A
-2010;145;Porcentagem / Interpretação de Tabelas;D
-2010;146;Geometria Plana (Círculos e Arcos);C
-2010;147;Equação do 1º Grau / Problemas de Contagem;D
-2010;148;Estatística (Leitura de Gráficos de Setores);B
-2010;149;Razão e Proporção (Escalas de Mapas);C
-2010;150;Geometria Plana (Ladrilhamento / Polígonos);A
-2010;151;Grandezas Inversamente Proporcionais;E
-2010;152;Geometria Espacial (Projeção Ortogonal);B
-2010;153;Análise Combinatória (Princípio Multiplicativo);B
-2010;154;Trigonometria (Triângulo Retângulo);C
-2010;155;Funções (Interpretação de Gráficos de Funções Periódicas);B
-2010;156;Porcentagem e Operações com Decimais;E
-2010;157;Geometria Plana (Teorema de Pitágoras);D
-2010;158;Estatística (Média e Mediana);B
-2010;159;Geometria Espacial (Volume de Troncos);C
-2010;160;Logaritmos (Cálculo de Intensidade Sonora);E
-2010;161;Progressão Aritmética (PA);B
-2010;162;Geometria Plana (Área de Polígonos Regulares);A
-2010;163;Matrizes (Organização de Dados);D
-2010;164;Probabilidade de Eventos Sucessivos;C
-2010;165;Razão e Proporção (Vazão e Tempo);A
-2010;166;Geometria Espacial (Cilindros e Esferas);B
-2010;167;Função do 2º Grau (Estudo do Vértice/Máximos);D
-2010;168;Raciocínio Lógico / Aritmética Básica;C
-2010;169;Geometria Analítica (Coordenadas Cartesianas);A
-2010;170;Porcentagem (Aumentos e Descontos);E
-2010;171;Estatística (Desvio Padrão e Variância);C
-2010;172;Geometria Plana (Perímetros e Arcos);C
-2010;173;Matemática Financeira (Juros Simples);A
-2010;174;Análise Combinatória (Combinação);D
-2010;175;Razão e Proporção (Densidade e Massa);E
-2010;176;Geometria Espacial (Planificação e Cubo);B
-2010;177;Funções (Domínio e Imagem);D
-2010;178;Operações Básicas / Raciocínio Proporcional;C
-2010;179;Geometria Espacial (Cálculo de Volume de Madeira/Sólidos Vazados);D
-2010;180;Funções (Interpretação de Gráficos de Velocidade);C
+2010;136;Porcentagem;C
+2010;137;Geometria Espacial;E
+2010;138;Razão e Proporção;E
+2010;139;Geometria Plana;B
+2010;140;Estatística;A
+2010;141;Estatística;B
+2010;142;Função do 1º grau;D
+2010;143;Geometria Espacial;D
+2010;144;Raciocínio Lógico;A
+2010;145;Estatística;D
+2010;146;Geometria Espacial;C
+2010;147;Geometria Plana;D
+2010;148;Estatística;B
+2010;149;Função do 1º grau;C
+2010;150;Geometria Plana;A
+2010;151;Geometria Espacial;E
+2010;152;Geometria Espacial;B
+2010;153;Geometria Espacial;B
+2010;154;Porcentagem;C
+2010;155;Probabilidade;B
+2010;156;Sistemas de Equações;E
+2010;157;Geometria Espacial;D
+2010;158;Geometria Espacial;B
+2010;159;Geometria Plana;C
+2010;160;Trigonometria;E
+2010;161;Função do 1º grau;B
+2010;162;Geometria Plana;A
+2010;163;Geometria Espacial;D
+2010;164;Função do 2º grau;C
+2010;165;Geometria Plana;A
+2010;166;Função do 1º grau;B
+2010;167;Geometria Espacial;D
+2010;168;Estatística;C
+2010;169;Raciocínio Lógico;A
+2010;170;Porcentagem;E
+2010;171;Estatística;C
+2010;172;Porcentagem;C
+2010;173;Análise Combinatória;A
+2010;174;Probabilidade;D
+2010;175;Estatística;E
+2010;176;Progressão Aritmética e Geométrica;B
+2010;177;Notação Científica;D
+2010;178;Geometria Espacial;C
+2010;179;Geometria Espacial;D
+2010;180;Estatística;C
 2011;136;Sistema de numeração decimal, Leitura de instrumentos de medida;A
 2011;137;Conversão de unidades, Sistema métrico decimal;B
 2011;138;Logaritmos, Potências de base 10, Função logarítmica;E
