@@ -222,13 +222,19 @@ document.getElementById("colunas").addEventListener("change", e => {
 function categoriaPrincipal(texto) {
   texto = texto.toLowerCase();
   if (texto.includes("estatística")) return "Estatística";
-  if (texto.includes("função afim")) return "Função Afim";
-  if (texto.includes("quadrática")) return "Função Quadrática";
-  if (texto.includes("trigonometr")) return "Trigonometria";
-  if (texto.includes("analítica")) return "Geometria Analítica";
-  if (texto.includes("espacial")) return "Geometria Espacial";
+  if (texto.includes("análise combinatória")) return "Análise Combinatória";
+  if (texto.includes("função do 1º grau")) return "Função do 1º grau";
+  if (texto.includes("função do 2º grau")) return "Função do 2º grau";
+  if (texto.includes("trigonometria")) return "Trigonometria";
+  if (texto.includes("geometria analítica")) return "Geometria Analítica";
+  if (texto.includes("geometria espacial")) return "Geometria Espacial";
+  if (texto.includes("geometria plana")) return "Geometria Plana";
+  if (texto.includes("razão e proporção")) return "Razão e Proporção";
+  if (texto.includes("regra de três")) return "Regra de Três";
+  if (texto.includes("raciocínio lógico")) return "Raciocínio Lógico";
+  if (texto.includes("porcentagem")) return "Porcentagem";
   if (texto.includes("probabilidade")) return "Probabilidade";
-  return "Outros";
+  return "Não Identificado";
 }
 
 fetch("questoes.csv")
